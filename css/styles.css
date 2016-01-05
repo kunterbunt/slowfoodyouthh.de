@@ -22,6 +22,9 @@ body, html, .mdl-layout, .mdl-layout__content, .page-content {
         font-size: 120%;
         text-align: justify;
     }
+    .intro a {
+        margin-top: 5px;
+    }
 
 
 .text--centered {
