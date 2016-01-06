@@ -2,7 +2,7 @@ body, html, .mdl-layout, .mdl-layout__content, .page-content {
     height: 100%;
     color: #424242;
 }
-.main-image-container {
+.image--logo-container {
     min-height: 150px;
     height: 20%;
     background-color: #FFCC9A;
@@ -12,7 +12,7 @@ body, html, .mdl-layout, .mdl-layout__content, .page-content {
         background-size: contain;
         background-position: center;        
     }
-    .image--main {
+    .image--logo {
         background-image: url('../imgs/logo_beige.jpg');
     }
 .intro-container {
