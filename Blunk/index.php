@@ -127,6 +127,9 @@ function getUrl() {
                 <img src="../imgs/Blunk/chicken2-web.jpg"/>
                 <figcaption>Diese Henne ist schon 12 Jahre alt!</figcaption>
               </figure>
+              <figure>
+                <img src="../imgs/Blunk/sheep3-web.jpg"/>                
+              </figure>
               
               <p>Mehr Infos:</p>
               <a href="http://www.arche-hof-bredland.de" title="Arche Hof Bredland" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Arche Hof Bredland</a>
