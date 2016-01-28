@@ -1,1 +1,5 @@
 *.log
+css/.sass-cache
+css/styles.css.map
+proof_local
+.sass-cache
