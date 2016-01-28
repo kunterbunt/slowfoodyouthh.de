@@ -143,6 +143,10 @@ $gray: #5b5b5b;
     background-position: center;
     border: 1px solid #bababa;
   }
+  .mdl-button {
+    background-color: darken($green, 5%) !important;
+    color: black !important;
+  }
 }
 
 footer {
