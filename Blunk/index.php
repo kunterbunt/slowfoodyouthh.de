@@ -117,10 +117,6 @@ function getUrl() {
                 <figcaption>Eine niedliche kleine Skudde</figcaption>
               </figure>
               <figure>
-                <img src="../imgs/Blunk/pigs-web.jpg"/>
-                <figcaption>Angler Sattelschweine</figcaption>
-              </figure>
-              <figure>
                 <img src="../imgs/Blunk/horse-web.jpg"/>
               </figure>
               <figure>
@@ -162,8 +158,8 @@ function getUrl() {
       <div class="mdl-logo">Mehr Infos</div>
       <ul class="mdl-mini-footer__link-list">
         <li><a href="http://www.slowfoodyouth.de" title="Slow Food Youth" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Slow Food Youth</a>  </li>
-            <li><a href="http://www.slowfood.de" title="Slow Food" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Slow Food</a>  </li>
-            <li><a href="http://www.slowfood-hamburg.de" title="Slow Food Hamburg" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Convivium Hamburg</a></li>
+        <li><a href="http://www.slowfood.de" title="Slow Food" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Slow Food</a>  </li>        
+        <li><a href="http://www.slowfood-hamburg.de" title="Slow Food Hamburg" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Convivium Hamburg</a></li>
       </ul>
   </div>
 </footer>
