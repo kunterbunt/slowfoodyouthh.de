@@ -68,7 +68,7 @@ $gray: #5b5b5b;
   .article {        
     width: 100%;    
     margin: 0 auto;    
-    padding: 0 16px;
+    padding: 0 16px 10px 16px;
     @media #{$desktop} {
       width: 65%;
       min-width: 400px;

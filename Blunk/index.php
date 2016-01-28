@@ -40,7 +40,7 @@ function getUrl() {
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <button class="mdl-layout-icon mdl-button mdl-js-button mdl-button--icon" onclick="history.go(-1);">
-      <i class="material-icons">arrow_back</i>
+      <i class="material-icons">&#xE5C4;</i>
     </button> 
       <!-- Title -->
       <a href="<?php echo getUrl();?>"><span class="mdl-layout-title">Slow Food Youth Hamburg</span></a>
