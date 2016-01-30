@@ -138,12 +138,18 @@ $gray: #5b5b5b;
 
 .article__content--text {
   text-align: justify;
-  img {
-    max-width: 100%;
+  figure {
+    width: 100%;
+    height: auto;
+    margin: 0.5rem 0 0.5rem 0;
+   img {
+    width: 100%;
+    height: auto;
     background-size: contain;
     background-position: center;
     border: 1px solid #bababa;
-  }
+    } 
+  }  
   .mdl-button {
     background-color: darken($green, 5%) !important;
     color: black !important;
