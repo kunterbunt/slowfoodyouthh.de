@@ -116,8 +116,9 @@ $gray: #5b5b5b;
       .article__content--image {
         background-color: $green;   
         height: $article__content--image-height;
-        background-size:  contain !important;
-        background-position: center !important;
+        background-size: cover !important;
+        background-position: center !important;        
+        background-repeat: no-repeat !important;
       }
       .article__content--title {
         color: $gray;
