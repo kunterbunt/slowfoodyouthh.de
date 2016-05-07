@@ -15,34 +15,34 @@ $gray: #5b5b5b;
   }
 }
 .image__logo-container {
-  min-height: 150px;
+  min-height: 250px;
   height: 20%;
   background-color: #FFCC9A;
-  .image {      
+  .image {
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;        
+    background-position: center;
   }
   .image__logo {
     background-image: url('../imgs/logo_beige.jpg');
   }
-}  
+}
 
-.intro-container {        
-  p {    
+.intro-container {
+  p {
     text-align: justify;
   }
-}    
+}
 
 .articles-header {
-  background-color: $artices-container-background-color;      
+  background-color: $artices-container-background-color;
   h2 {
-    margin-bottom: 0;    
+    margin-bottom: 0;
   }
 }
 .articles-container {
-  background-color: $artices-container-background-color;    
-  
+  background-color: $artices-container-background-color;
+
   text-align: center;
   i {
     font-size: 2rem;
@@ -50,11 +50,11 @@ $gray: #5b5b5b;
     &:hover {
       cursor: default;
     }
-  }    
-  
+  }
+
   .vertical-line {
     width: 0;
-    height: 100px;    
+    height: 100px;
     margin: 0 auto;
     border: 1px solid black;
     &.vertical-line--light {
@@ -64,24 +64,24 @@ $gray: #5b5b5b;
       height: 50px;
     }
   }
-  
-  .article {        
-    width: 100%;    
-    margin: 0 auto;    
+
+  .article {
+    width: 100%;
+    margin: 0 auto;
     padding: 0 16px 8px 16px;
     @media #{$desktop} {
       width: 65%;
       min-width: 400px;
-    }       
+    }
     -webkit-transition: background-color 0.25s;
-      
-    &:hover {      
-      background-color: lighten($artices-container-background-color, 5%);      
+
+    &:hover {
+      background-color: lighten($artices-container-background-color, 5%);
       .article__content--title {
         @include box-shadow(0px, 1px, 15px, rgba(0, 0, 0, 0.75));
-      }      
+      }
     }
-  
+
     text-align: center;
     .article__date {
       color: $gray;
@@ -103,7 +103,7 @@ $gray: #5b5b5b;
         cursor: pointer;
       }
     }
-    .article__content {      
+    .article__content {
       color: black;
       @include box-shadow-default();
       @include rounded(0.1em);
@@ -112,12 +112,12 @@ $gray: #5b5b5b;
       &:hover {
         cursor: pointer;
       }
-      
+
       .article__content--image {
-        background-color: $green;   
+        background-color: $green;
         height: $article__content--image-height;
         background-size: cover !important;
-        background-position: center !important;        
+        background-position: center !important;
         background-repeat: no-repeat !important;
       }
       .article__content--title {
@@ -148,8 +148,8 @@ $gray: #5b5b5b;
     background-size: contain;
     background-position: center;
     border: 1px solid #bababa;
-    } 
-  }  
+    }
+  }
   .mdl-button {
     background-color: darken($green, 5%) !important;
     color: black !important;
