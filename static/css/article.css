@@ -24,6 +24,8 @@ a {
   color: rgba(0, 0, 0, 0.87); }
   .mdl-layout__header a {
     color: rgba(0, 0, 0, 0.87); }
+  .mdl-layout__header .mdl-layout__header-row {
+    padding-left: 0; }
 
 img {
   max-height: 100%;
