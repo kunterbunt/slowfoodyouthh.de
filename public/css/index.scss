@@ -8,6 +8,7 @@ $accent-color: #607D8B;;
 $gray: #5b5b5b;
 $lightgray: lighten($gray, 15%);
 $green: #63C89E;
+$intro-background: #d5dbea;
 $artices-container-background-color: darken($intro-background, 10%);
 
 .image {
@@ -27,17 +28,19 @@ $artices-container-background-color: darken($intro-background, 10%);
   h1 {
     color: white;
     margin: 0;
-    font-size: 56pt;
     font-weight: bold;
     text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
     @media #{$desktop} {
+      font-size: 56pt;
       line-height: 400px;
     }
     @media #{$tablet} {
-      margin-top: 100px;
+      font-size: 42pt;
+      margin-top: 150px;
     }
     @media #{$phone} {
-      margin-top: 50px;
+      font-size: 32pt;
+      margin-top: 75px;
     }
   }
 }
