@@ -1,0 +1,43 @@
+@import "base";
+@import "mixins";
+
+.mdl-layout__header {
+  background: white;
+  color: rgba(0, 0, 0, 0.87);
+  a {
+    color: rgba(0, 0, 0, 0.87);
+  }
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  &.image--logo {
+    background-position: 10%;
+    background-size: cover;
+    height: 100%;
+  }
+}
+
+.container--logo {
+  height: 400px;
+  max-height: 50%;
+  img {
+    height: 100%;
+  }
+  .mdl-layout-spacer {
+    @media #{$desktop} {
+      background-color: lightgray;
+    }
+  }
+}
+
+.container--content {
+  width: 100%;
+
+}

@@ -1,0 +1,61 @@
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+  <div class="page-content">
+    <div class="container--logo mdl-grid mdl-grid--no-spacing">
+      <div class="image image--logo mdl-cell mdl-cell--12-col">
+        <h1 class="text-align--center">SLOW FOOD YOUTH HAMBURG</h1>
+      </div>
+    </div>
+    <div class="container--intro mdl-grid ">
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-cell mdl-cell--6-col">
+        <h2 class="text-align--center">Moin Moin!</h2>
+        <h3>Wer wir sind?</h3>
+        <p>Wir sind die <strong>Hamburger Slow Food Youth</strong> Gruppe, gegründet Anfang 2015!</p>
+        <p>Wir <strong>engagieren</strong> uns ganz im Sinne von Slow Food für gute, saubere und faire Lebensmittel, also insbesondere für  Nachhaltigkeit, Saisonalität und Regionalität und gegen Verschwendung.</p>
+        <p>In unserer Gruppe <strong>triffst Du</strong> vom Studenten bis zum Koch, von der Bürofrau bis zur Gärtnerin jede Menge lustiger Leute.  Ganz egal wo Du herkommst, was Du machst, wie alt Du bist, ob zugezogen oder Urhamburger - bei uns ist jeder <strong>Willkommen</strong>!</p>
+        <p>Wir sind bunt gemischt und lieben gutes Essen!</p>
+
+        <h3>Was wir machen?</h3>
+        <p>Wir versuchen <strong>gutes Essen</strong> in den Alltag zurück zu holen.</p>
+        <p>Dafür <strong>organisieren</strong> wir kleinere und größere Events wie die Schnippeldisko und Workshops. Außerdem <strong>treffen</strong> wir uns regelmäßig jeden zweiten Montag im Monat in gemütlicher Runde zum Essen, Schnacken und <strong>Weltverbessern</strong>. :)</p>
+        <p>Gerade sind wir dabei uns neue Aktionen für das Jahr 2016 auszudenken. Wir werden Euch in Zukunft auf dieser Seite darüber auf dem Laufenden halten.</p>
+      </div>
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+    <div class="mdl-grid mdl-grid--no-spacing">
+      <div class="articles-header mdl-cell mdl-cell--12-col">
+        <h2 class="text-align--center">Neuigkeiten</h2>
+      </div>
+    </div>
+    <div class="articles-container mdl-grid">
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-cell mdl-cell--6-col">
+        <i class="material-icons">&#xE5C5;</i>
+        <div class="vertical-line vertical-line--50px"></div>
+        {{ range .Data.Pages }}
+          <div class="article">
+            <a href="{{.Permalink}}" title="{{.Title}}" target="_self">
+              <span class="article__date">{{.Date.Format "January 2"}}</span>
+              <div class="article__content">
+                <div class="article__content--image" style="background: url('{{.Params.logo}}');"></div>
+                <h3 class="article__content--title">{{.Title}}</h3>
+              </div>
+            </a>
+          </div>
+          <div class="vertical-line"></div>
+        {{ end }}
+        <i class="material-icons">&#xE5C7;</i>
+      </div>
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+  </div>
+</body>

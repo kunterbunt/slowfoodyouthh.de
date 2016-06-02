@@ -1,0 +1,7 @@
+baseurl = "http://slowfoodyouthh.de/"
+languageCode = "de-de"
+title = "Slow Food Youth Hamburg"
+SectionPagesMenu = "hauptmenue"
+pluralizeListTitles = false
+[Taxonomies]
+tag = "tags"
