@@ -13,7 +13,7 @@ Am **Dienstag, 28.06 um 18:30** veranstalten wir eine **geführte Kräuterwander
 
 Wir **treffen** uns vor dem **Restaurant/Biergarten Eichtalpark**. Das Restaurant ist bei der Bushaltestelle "Eichtalpark" zur Parkseite hin gelegen - gegenüber Ahrensburger Straße 7 bzw. 9.
 
-Die Kosten liegen bei **7€ pro Person.**
+Die Kosten liegen bei **7€ pro Person**..
 
 Zur **Anmeldung** reicht eine Mail an [moin@slowfoodyouthh.de](mailto:moin@slowfoodyouthh.de).
 
