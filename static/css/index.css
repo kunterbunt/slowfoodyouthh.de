@@ -34,21 +34,24 @@ a {
   max-height: 50%; }
   .container--logo h1 {
     color: white;
-    margin: 0;
     font-weight: bold;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.7); }
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-75%);
+    -o-transform: translateY(-75%);
+    -ms-transform: translateY(-75%);
+    -webkit-transform: translateY(-75%);
+    transform: translateY(-75%); }
     @media only screen and (min-width: 1025px) {
       .container--logo h1 {
-        font-size: 56pt;
-        line-height: 400px; } }
+        font-size: 56pt; } }
     @media only screen and (min-width: 530px) and (max-width: 1024px) {
       .container--logo h1 {
-        font-size: 42pt;
-        margin-top: 150px; } }
+        font-size: 42pt; } }
     @media only screen and (max-width: 529px) {
       .container--logo h1 {
-        font-size: 32pt;
-        margin-top: 75px; } }
+        font-size: 32pt; } }
 
 .container--intro {
   background-color: #eff2f7; }

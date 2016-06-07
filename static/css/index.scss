@@ -27,20 +27,19 @@ $artices-container-background-color: darken($intro-background, 10%);
   max-height: 50%;
   h1 {
     color: white;
-    margin: 0;
     font-weight: bold;
     text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 50%;
+    @include transform(translateY(-75%));
     @media #{$desktop} {
       font-size: 56pt;
-      line-height: 400px;
     }
     @media #{$tablet} {
       font-size: 42pt;
-      margin-top: 150px;
     }
     @media #{$phone} {
       font-size: 32pt;
-      margin-top: 75px;
     }
   }
 }
