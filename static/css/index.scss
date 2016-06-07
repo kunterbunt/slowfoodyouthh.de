@@ -99,7 +99,7 @@ $artices-container-background-color: darken($intro-background, 10%);
     @media #{$desktop} {
       width: 65%;
       min-width: 400px;
-    }
+    }    
     &:hover {
       background-color: lighten($artices-container-background-color, 5%);
       .article__content--title {

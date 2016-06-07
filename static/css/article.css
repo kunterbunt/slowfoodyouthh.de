@@ -58,7 +58,7 @@ img {
         font-size: 56pt; } }
     @media only screen and (min-width: 530px) and (max-width: 1024px) {
       .container--content h1 {
-        font-size: 42pt; } }
+        font-size: 40pt; } }
     @media only screen and (max-width: 529px) {
       .container--content h1 {
         font-size: 28pt; } }
