@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slow Food Youth Hamburg</title>
+    <link>http://slowfoodyouthh.de/tags/</link>
+    <description>Recent content on Slow Food Youth Hamburg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 28 Jun 2016 19:22:51 +0200</lastBuildDate>
+    <atom:link href="http://slowfoodyouthh.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Kräuterwanderung</title>
+      <link>http://slowfoodyouthh.de/artikel/kraeuterwanderung-28-06-2016/</link>
+      <pubDate>Tue, 28 Jun 2016 19:22:51 +0200</pubDate>
+      
+      <guid>http://slowfoodyouthh.de/artikel/kraeuterwanderung-28-06-2016/</guid>
+      <description>&lt;p&gt;Slow Food Youth Hamburg geht auf Kräutersuche!&lt;/p&gt;
+
+&lt;p&gt;Am &lt;strong&gt;Dienstag, 28.06 um 18:30&lt;/strong&gt; veranstalten wir eine &lt;strong&gt;geführte Kräuterwanderung&lt;/strong&gt; zum Kennlernen von heimischen Heilpflanzen und essbaren Wildpflanzen.&lt;/p&gt;
+
+&lt;p&gt;Wir &lt;strong&gt;treffen&lt;/strong&gt; uns vor dem &lt;strong&gt;Restaurant/Biergarten Eichtalpark&lt;/strong&gt;. Das Restaurant ist bei der Bushaltestelle &amp;ldquo;Eichtalpark&amp;rdquo; zur Parkseite hin gelegen - gegenüber Ahrensburger Straße 7 bzw. 9.&lt;/p&gt;
+
+&lt;script src=&#39;https://maps.googleapis.com/maps/api/js?v=3.exp&#39;&gt;&lt;/script&gt;&lt;div style=&#39;overflow:hidden;height:440px;width:808px;&#39;&gt;&lt;div id=&#39;gmap_canvas&#39; style=&#39;height:440px;width:808px;&#39;&gt;&lt;/div&gt;&lt;div&gt;&lt;small&gt;&lt;a href=&#34;http://embedgooglemaps.com&#34;&gt;                                   embed google maps                           &lt;/a&gt;&lt;/small&gt;&lt;/div&gt;&lt;div&gt;&lt;small&gt;&lt;a href=&#34;https://privacypolicygenerator.info&#34;&gt;privacy policy generator&lt;/a&gt;&lt;/small&gt;&lt;/div&gt;&lt;style&gt;#gmap_canvas img{max-width:none!important;background:none!important}&lt;/style&gt;&lt;/div&gt;&lt;script type=&#39;text/javascript&#39;&gt;function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(53.57835,10.088489999999979),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById(&#39;gmap_canvas&#39;), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(53.57835,10.088489999999979)});infowindow = new google.maps.InfoWindow({content:&#39;&lt;strong&gt;Kräuterwanderung Treffen&lt;/strong&gt;&lt;br&gt;Zum Eichtalpark, Ahrensburger Str. 14, 22041 Hamburg&lt;br&gt;&#39;});google.maps.event.addListener(marker, &#39;click&#39;, function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, &#39;load&#39;, init_map);&lt;/script&gt;
+
+&lt;p&gt;Die &lt;strong&gt;Kosten&lt;/strong&gt; liegen bei 7Eur pro Person.&lt;/p&gt;
+
+&lt;p&gt;Zur &lt;strong&gt;Anmeldung&lt;/strong&gt; reicht eine Mail an &lt;a href=&#34;mailto:moin@slowfoodyouthh.de&#34;&gt;moin@slowfoodyouthh.de&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
