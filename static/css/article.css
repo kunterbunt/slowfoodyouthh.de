@@ -4,7 +4,6 @@
   -webkit-box-sizing: border-box; }
 
 body, html, .mdl-layout, .mdl-layout__content, .page-content {
-  height: auto;
   color: #424242; }
 
 .mdl-grid p {
