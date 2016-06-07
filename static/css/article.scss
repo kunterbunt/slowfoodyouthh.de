@@ -42,5 +42,22 @@ img {
 
 .container--content {
   width: 100%;
-
+  h1 {
+    word-wrap: break-word;
+    @media #{$desktop} {
+      font-size: 56pt;
+    }
+    @media #{$tablet} {
+      font-size: 42pt;
+    }
+    @media #{$phone} {
+      font-size: 28pt;
+    }
+  }
+  #gmap_canvas {
+    max-width: 100%;
+    & div {
+      max-width: 100%;
+    }
+  }
 }
