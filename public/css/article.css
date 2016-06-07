@@ -62,9 +62,7 @@ img {
     @media only screen and (max-width: 529px) {
       .container--content h1 {
         font-size: 28pt; } }
-  .container--content #gmap_canvas {
+  .container--content div {
     max-width: 100%; }
-    .container--content #gmap_canvas div {
-      max-width: 100%; }
 
 /*# sourceMappingURL=article.css.map */

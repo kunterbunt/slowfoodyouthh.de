@@ -54,10 +54,7 @@ img {
       font-size: 28pt;
     }
   }
-  #gmap_canvas {
+  div {
     max-width: 100%;
-    & div {
-      max-width: 100%;
-    }
   }
 }
