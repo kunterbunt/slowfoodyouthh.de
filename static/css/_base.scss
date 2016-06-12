@@ -27,3 +27,14 @@ a {
 .text--centered {
   text-align: center;
 }
+footer {
+  .mdl-button {
+    span {
+      color: black;
+    }
+    i {
+      line-height: 36px;
+      color: black;
+    }
+  }
+}

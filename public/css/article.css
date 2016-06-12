@@ -19,6 +19,12 @@ a {
 .text--centered {
   text-align: center; }
 
+footer .mdl-button span {
+  color: black; }
+footer .mdl-button i {
+  line-height: 36px;
+  color: black; }
+
 .mdl-layout__header {
   background: white;
   color: rgba(0, 0, 0, 0.87); }

@@ -18,6 +18,12 @@ a {
 .text--centered {
   text-align: center; }
 
+footer .mdl-button span {
+  color: black; }
+footer .mdl-button i {
+  line-height: 36px;
+  color: black; }
+
 .image {
   background-repeat: no-repeat;
   background-size: contain;
