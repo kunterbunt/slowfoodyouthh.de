@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -61,16 +62,26 @@ img {
     @media only screen and (max-width: 529px) {
       .container--content h1 {
         font-size: 28pt; } }
-  .container--content .map-responsive {
+  .container--content .responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
     height: 0; }
-  .container--content .map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute; }
+  .container--content blockquote {
+    font-size: 100%;
+    background: #f9f9f9;
+    border-left: 10px solid #FF6E40;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "“" "”" "‘" "’"; }
+    .container--content blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em; }
+    .container--content blockquote p {
+      display: inline; }
 
 /*# sourceMappingURL=article.css.map */
