@@ -95,7 +95,10 @@ footer .mdl-button i {
     width: 100%;
     margin: 0 auto;
     padding: 0 16px 8px 16px;
+    -moz-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
     -webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
     text-align: center; }
     @media only screen and (min-width: 1025px) {
       .articles-container .article {

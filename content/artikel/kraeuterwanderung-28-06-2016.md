@@ -1,7 +1,7 @@
 +++
 date = "2016-06-28T19:22:51+02:00"
 logo = "/imgs/kraeuterwanderung-28-06-2016/logo.jpg"
-summary = ""
+summary = "Wir veranstalten eine geführte Kräuterwanderung."
 tags = [""]
 title = "Kräuterwanderung"
 

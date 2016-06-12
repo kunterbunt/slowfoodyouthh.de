@@ -1,7 +1,34 @@
-  <h1>{{ .Title }}</h1>
-  <ul>
-    {{ range .Data.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
-{{ partial "footer.html" . }}
+{{ partial "head.html" . }}
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <a href={{.Site.BaseURL}}><button class="mdl-button mdl-js-button"><i class="material-icons">arrow_back</i></button></a><span class="mdl-layout-title">Slow Food Youth Hamburg</span><i class="mdl-cell--hide-phone material-icons">keyboard_arrow_right</i><span class="mdl-cell--hide-phone">{{.Title}}</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col">
+            <ul class="articles-list mdl-list">
+              {{ range .Data.Pages }}
+              <li class="mdl-list__item mdl-list__item--three-line">
+                <a href="{{.Permalink}}">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="material-icons mdl-list__item-avatar">title</i>
+                    <span class="article__title">{{.Title}}</span>
+                    <span class="article__date">{{.Date.Format "January 2"}}</span>
+                    <span class="article__summary mdl-list__item-text-body">
+                      {{.Params.summary}}
+                    </span>
+                  </span>
+                  </a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>

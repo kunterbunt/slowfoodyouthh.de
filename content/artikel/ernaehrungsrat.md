@@ -1,7 +1,7 @@
 +++
 date = "2016-07-05T11:40:03+02:00"
 logo = "/imgs/ernaehrungsrat/logo.png"
-summary = ""
+summary = "Aufruf zur Teilnahme am Ernährungsrat Hamburg."
 tags = [""]
 title = "Ernährungsrat"
 +++

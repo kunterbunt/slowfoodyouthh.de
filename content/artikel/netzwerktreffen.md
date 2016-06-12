@@ -2,7 +2,7 @@
 date = "2016-05-13T09:00:00+02:00"
 title = "Netzwerktreffen"
 tags = ["Ausflug"]
-summary = "Tolles Netzwerktreffen."
+summary = "Erfahrungsbericht vom Netzwerktreffen 2016."
 logo = "/imgs/netzwerktreffen/logo.jpg"
 +++
 Am Wochenende vom 13.–16. Mai 2016 fand in Altenkirchen im Westerwald das Seminar für Verbraucheraufklärung statt. Eingeladen waren Slow Food Youth Aktive aus ganz Deutschland, aber natürlich auch alle anderen Interessierten. Gemeinsam wollten wir uns ein Wochenende lang zu Themen der Verbraucherpolitik, -aufklärung und -bildung informieren und austauschen.

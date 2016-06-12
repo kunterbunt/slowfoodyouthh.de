@@ -80,3 +80,26 @@ img {
     }
   }
 }
+
+.articles-list {
+  list-style-type: none;
+  li {
+    background-color: darken(white, 5%);
+    @include transition(background-color 0.25s);
+    margin-bottom: 16px;
+    padding: 16px 16px 0 16px;
+    .article__title {
+      color: black;
+    }
+    .article__date {
+      color: $accent-color;
+      font-size: 85%;
+    }
+    .article__summary {
+
+    }
+    &:hover {
+      background-color: darken(white, 15%);
+    }
+  }
+}
