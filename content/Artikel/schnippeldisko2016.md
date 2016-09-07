@@ -1,5 +1,5 @@
 +++
-date = "2016-09-07T13:46:29+02:00"
+date = "2016-09-11T13:46:29+02:00"
 logo = "/imgs/schnippeldisko2016/logo.jpg"
 summary = ""
 tags = ["Schnippeldisko"]
