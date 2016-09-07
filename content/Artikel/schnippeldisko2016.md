@@ -5,8 +5,7 @@ summary = ""
 tags = ["Schnippeldisko"]
 title = "Schnippeldisko 2016"
 +++
-Am 11. September steigt ab 13 Uhr die 2. Schnippeldisko im Wilhelmsburger Inselpark!
----
+<h3 class="text--centered">Am 11. September steigt ab 13 Uhr die 2. Schnippeldisko im Wilhelmsburger Inselpark!</h3>
 
 **Freunde des kulinarischen Ungehorsam!**
 
@@ -26,7 +25,6 @@ Wir wollen zeigen, dass auch zweibeinige Möhren, großwüchsige Rote Beeten und
 
 Deshalb fahren wir zum Hof, sammeln das Knubbelgemüse, besorgen uns einen DJ, laden viele Leute ein, schnippeln, was das Zeug hält, und zaubern uns ein leckeres Gericht.
 
-Deshalb ist es wieder so weit!
----
+<h2 class="text--centered">Deshalb ist es wieder so weit!</h2>
 
 ![Flyer](/imgs/schnippeldisko2016/Schnippeldisko_2016_Flyer-web.jpg)
