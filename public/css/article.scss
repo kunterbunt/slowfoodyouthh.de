@@ -54,6 +54,12 @@ img {
       font-size: 28pt;
     }
   }
+  p {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
   .responsive {
     overflow:hidden;
     padding-bottom:56.25%;
