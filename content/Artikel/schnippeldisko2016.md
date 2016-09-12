@@ -5,11 +5,50 @@ summary = ""
 tags = ["Schnippeldisko"]
 title = "Schnippeldisko 2016"
 +++
-<h3 class="text--centered">Am 11. September steigt ab 13 Uhr die 2. Schnippeldisko im Wilhelmsburger Inselpark!</h3>
+<h3 class="text--centered">Am 11. September feierten wir die 2. Schnippeldisko im Wilhelmsburger Inselpark!</h3>
 
-**Freunde des kulinarischen Ungehorsam!**
+Bei strahlendem Sonnenschein haben wir an diesem Sonntag gemeinsam mit euch gute **100kg Obst & Gemüse** geschnippelt, gebraten, gekocht und zu Saft gemacht!
 
-In unserer Disko gibt’s neben dem Beat ein besonderes Highlight – bei uns wird geschnippelt, geschruppt und gekocht! Unsere Stars sind zweibeinige Möhren und knubbelige Pastinaken und unser Ansporn ist die sinnlose Verschwendung leckerer Lebensmittel.
+Es hat uns sehr viel Spaß gemacht mit den vielen entspannten und netten Menschen zu sehr schönem Gesang von [Derya Yildirim & Karin Jüchter](http://www.facebook.com/derya.yildirim.9828) und guten Beats von [Klangtaucher](http://www.klangtaucher.net) unsere Schnippeldisko zu feiern.
+
+Ein großer Dank geht an den [Wilhelmsburger Inselpark](http://inselpark.hamburg/) für die schöne Location und die Organisation von Musik und Technik. **Karotte & Co.** danken wir für deren unverkäufliches Gemüse, das wir verarbeiten durften. Wer sonst hat auf seiner Schnippeldisko Honigmelonen aus Schleswig-Holstein?!
+
+Ein paar Eindrücke des Events
+
+![Nacktschneckenalarm!](/imgs/schnippeldisko2016/DSCF4415.jpg)
+Nacktschneckenalarm!
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/photo_2016-09-12_15-34-51.jpg)
+Tomatensalat! Tomatensalat!
+
+![DJ Klangtaucher und Team](/imgs/schnippeldisko2016/DSCF4422.jpg)
+DJ Klangtaucher und Team
+
+![Komm Raus Mach Mit!](/imgs/schnippeldisko2016/DSCF4424.jpg)
+Kulinarsch-musikalische Begegnung
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/photo_2016-09-12_15-35-28.jpg)
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/DSCF4425.jpg)
+Fröhlich schnippeln und mindestens genauso fröhlich Essen :)
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/DSCF4426.jpg)
+Schnippeln mit der ganzen Familie
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/DSCF4428.jpg)
+Besuch aus Münster und den Niederlanden
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/DSCF4431.jpg)
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/DSCF4432_beide.jpg)
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/DSCF4433.jpg)
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/photo_2016-09-12_15-33-54.jpg)
+Hunger?!
+
+![Fröhlich schnippeln und mindestens genauso fröhlich Essen](/imgs/schnippeldisko2016/DSCF4437.jpg)
+Ab sofort könnt ihr bei uns auch siebdrucken!
 
 **Wieso schnippeln wir?**
 
@@ -21,14 +60,6 @@ Unter den verschmähten Lebensmitteln befindet sich vor allem auch viel leckeres
 
 **Wir fordern: Auch zweibeinige Möhren haben ein Recht, geschnippelt zu werden!**
 
-Wir wollen zeigen, dass auch zweibeinige Möhren, großwüchsige Rote Beeten und Äpfel mit kleinen Druckstellen einen Wert haben: Sie sind schön, oft ulkig, sie schmecken und sind nahrhaft – viel zu kostbar, um „entsorgt“ zu werden!
+Wir wollen zeigen, dass auch zweibeinige Möhren, großwüchsige Rote Beten und Äpfel mit kleinen Druckstellen einen Wert haben: Sie sind schön, oft ulkig, sie schmecken und sind nahrhaft – viel zu kostbar, um „entsorgt“ zu werden!
 
 Deshalb fahren wir zum Hof, sammeln das Knubbelgemüse, besorgen uns einen DJ, laden viele Leute ein, schnippeln, was das Zeug hält, und zaubern uns ein leckeres Gericht.
-
-<h2 class="text--centered">Deshalb ist es wieder so weit!</h2>
-
-![Flyer](/imgs/schnippeldisko2016/Schnippeldisko_2016_Flyer-web.jpg)
-
-<div class="responsive">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7983.693070859987!2d9.997009334271272!3d53.49408128332677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18e21533bf095%3A0x3d917531cbcd1272!2sRhododendrongarten%2C+21109+Hamburg!5e0!3m2!1sen!2sde!4v1473251617744" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
