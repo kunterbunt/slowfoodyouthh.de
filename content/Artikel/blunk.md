@@ -5,7 +5,7 @@ tags = ["Ausflug"]
 summary = "Ein Ausflug nach Blunk ist immer eine Reise wert."
 logo = "/imgs/blunk/logo.jpg"
 +++
-Am 9. Januar 2016 haben wir uns gemeinsam auf einen kleinen Ausflug begeben. Morgens um 10 Uhr ging es am Hamburger Hauptbahnhof los. Ganz gemütlich fuhren wir durch verschneite Landschaften unter strahlend blauem Himmel nach Bad Segeberg und weiter in das kleine Nachbarörtchen Blunk.<!--more-->
+Am 9. Januar 2016 haben wir uns gemeinsam auf einen kleinen Ausflug begeben. Morgens um 10 Uhr ging es am Hamburger Hauptbahnhof los - ganz gemütlich fuhren wir durch verschneite Landschaften unter strahlend blauem Himmel nach Bad Segeberg und weiter in das kleine Nachbarörtchen Blunk.<!--more-->
 
 Dort empfingen uns fröhlich Inken und Hardy, die den Arche-Hof Bredland führen. Wir durften es uns im wunderschönen Gästezimmer gemütlich machen und Inken versorgte uns mit leckeren Broten.
 
