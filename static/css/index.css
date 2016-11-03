@@ -24,6 +24,14 @@ footer .mdl-button i {
   line-height: 36px;
   color: black; }
 
+.mdl-layout__header {
+  background: white;
+  color: rgba(0, 0, 0, 0.87); }
+  .mdl-layout__header a {
+    color: rgba(0, 0, 0, 0.87); }
+  .mdl-layout__header .mdl-layout__header-row {
+    padding-left: 0; }
+
 .image {
   background-repeat: no-repeat;
   background-size: contain;

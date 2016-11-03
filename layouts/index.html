@@ -62,7 +62,7 @@
       <div class="mdl-cell mdl-cell--6-col">
         <i class="material-icons">&#xE5C5;</i>
         <div class="vertical-line vertical-line--50px"></div>
-        {{ range .Data.Pages }}
+        {{ range first 7 .Data.Pages }}
           <div class="article">
             <a href="{{.Permalink}}" title="{{.Title}}" target="_self">
               <span class="article__date">{{.Date.Format "January 2"}}</span>
@@ -74,7 +74,12 @@
           </div>
           <div class="vertical-line"></div>
         {{ end }}
-        <i class="material-icons">&#xE5C7;</i>
+        <a href="/mehr" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          ZEIG MIR MEHR
+        </a>
+        <br>
+        <br>
+        <br>
         <p>Wir von Slow Food Youth Hamburg sind ein Teil von Slow Food Deutschland e.V.</p>
         <p>Wir lehnen Extremismus aller Art ab, dazu gehören im Speziellen die
         Diffamierung von Ausländern, Zugezogenen und Menschen mit anderer Religionszugehörigkeit,
