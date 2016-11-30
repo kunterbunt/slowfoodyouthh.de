@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ausflug on Slow Food Youth Hamburg</title>
-    <link>http://www.slowfoodyouthh.de/tags/ausflug/</link>
-    <description>Recent content in Ausflug on Slow Food Youth Hamburg</description>
+    <title>Slow Food Youth Hamburg</title>
+    <link>http://www.slowfoodyouthh.de/tags/ausflug/index.xml</link>
+    <description>Recent content on Slow Food Youth Hamburg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Fri, 13 May 2016 09:00:00 +0200</lastBuildDate>
     <atom:link href="http://www.slowfoodyouthh.de/tags/ausflug/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -90,8 +89,7 @@ Pommernschafe im Wintersonnenschein&amp;lt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://www.slowfoodyouthh.de/imgs/blunk/chicken2-web.jpg&#34; alt=&#34;Diese Henne ist schon 12 Jahre alt!&#34; /&gt;
 Diese Henne ist schon 12 Jahre alt!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.slowfoodyouthh.de/imgs/blunk/sheep3-web.jpg&#34; alt=&#34;Angler Sattelschweine beim futtern&#34; /&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;img src=&#34;http://www.slowfoodyouthh.de/imgs/blunk/sheep3-web.jpg&#34; alt=&#34;Angler Sattelschweine beim futtern&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

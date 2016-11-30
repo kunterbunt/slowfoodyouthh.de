@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Schnippeldisko on Slow Food Youth Hamburg</title>
-    <link>http://www.slowfoodyouthh.de/tags/schnippeldisko/</link>
-    <description>Recent content in Schnippeldisko on Slow Food Youth Hamburg</description>
+    <title>Slow Food Youth Hamburg</title>
+    <link>http://www.slowfoodyouthh.de/tags/schnippeldisko/index.xml</link>
+    <description>Recent content on Slow Food Youth Hamburg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 11 Sep 2016 13:46:29 +0200</lastBuildDate>
     <atom:link href="http://www.slowfoodyouthh.de/tags/schnippeldisko/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
