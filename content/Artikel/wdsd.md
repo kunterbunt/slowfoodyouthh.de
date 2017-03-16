@@ -15,11 +15,16 @@ Slow Food Youth ist international! Und aktiv! Und deswegen kam die Idee auf, das
 Was war nochmal eine Schnippeldisko?
 ---
 
-Das sind öffentliche Protestaktionen, zu denen Gemüse besorgt wird, das sonst in die Mülltonne gewandert wäre. Wir kümmern uns zusätzlich um Musik und Brettchen und Messer. Alle Mitmachenden schnippeln dann zur Musik das Gemüse und wir kochen daraus etwas zu Essen, was dann einfach verteilt wird. Sinn der Aktion ist natürlich darauf hinzuweisen, dass weltweit enorme Mengen essbarer Lebensmittel jeden Tag verschwendet werden, wo man doch so leckere Sachen daraus machen könnte.
+Schnippeldiskos, international bekannt als Disco Soup, sind öffentliche Protestaktionen, für welche Gemüse gerettet wird, das sonst in die Mülltonne gewandert wäre. Dafür wenden wir uns insebesondere an die Landwirtschaft, um jenes Gemüse zu verarbeiten, welches wegen seines krummen Wuchses oder seine Vielbeinigkeit gar nicht erst den Weg in den Lebensmitteleinzelhandel antreten darf.
+Wir kümmern uns zusätzlich um Musik, Brettchen und Messer. Alle Mitmachenden schnippeln dann zur Musik das Gemüse und wir kochen daraus ein in der Regel einfaches, aber sehr schmackhaftes Gericht. Alle Anwesenden dürfen sich damit dann die Bäuche vollschlagen und essen, was sonst weggeworfen worden wäre. Die Idee der Aktion ist es, zu verdeutlichen, welche (Un-)Mengen essbarer und sogar äußerst schmackhafter Lebensmittel jeden Tag im Müll landen.
+Und während beim Schnippeln nur die Köpfe und Fußspitzen im Takt wippen, werden nach getaner Arbeit die Tische zur Seite geräumt und es wird fleißig getanzt und gefeiert. Das geht ja bekanntlich mit guter Nahrungsgrundlage am allerbesten. ;)
+
+Zum World Disco Soup Day werden nun erstmals an einem Tag weltweit Schnippeldiskos stattfinden – von Brasilien bis in die USA, von Japan bis nach Afrika, überall auf der Welt kommen junge Menschen zusammen und schnippeln, was das Zeug hält.
+Auch in Deutschland werden mehrere Veranstaltungen stattfinden – und Hamburg darf dabei natürlich nicht fehlen.
 
 Wann geht's los?
 ---
 
-Am **29. April** ist der große Tag. In Deutschland werden Schnippeldiskos (mindestens) in Münster, Fulda, Blunk (bei Hamburg) und *natürlich bei uns in Hamburg* stattfinden. International reicht das Event bis Brasilien. :)
+Am **29. April** ist der große Tag. Damit das auch tatsächlich funktioniert, sind wir aktuell auf der Suche nach einem geeigneten Ort, an dem das Event stattfinden kann und an dem wir möglichst viele Leute erreichen.
 
-Wir kümmern uns gerade um Ort und Zeit, aber merkt euch das Datum schon mal vor!
+Haltet euch den Abend also frei, wir halten euch dafür auf dem Laufenden!
