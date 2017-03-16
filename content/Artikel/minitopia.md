@@ -5,7 +5,7 @@ tags = [
 summary = "Das Minitopia Projekt in Wilhelmsburg möchte sich vorstellen"
 logo = "/imgs/minitopia/cover.jpg"
 draft = false
-date = "2017-03-16T18:46:50+01:00"
+date = "2017-04-07T19:00:00+01:00"
 title = "Minitopia Projekt in Wilhelmsburg"
 
 +++
