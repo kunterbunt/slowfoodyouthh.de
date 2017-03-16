@@ -19,7 +19,7 @@ Zu finden ist das Grundstück hier:
 
 Das Projekt ist brandneu und super sympathisch. Die **offizielle Eröffnung** ist am **7. April ab 19 Uhr** an besagter Adresse. Da wir das Projekt so cool finden, werden viele von uns auch da sein. Zur Feier des Anlasses helfen wir mit einer *kleinen Schnippeldisko* mit, die sich in das Programm des Abends aus Vorstellung, Mucke und Vorträgen eingliedert.
 
-Ein paar mehr Infos und die offizielle Einladung findet ihr [in diesem PDF](https://www.dropbox.com/s/lyfqbqz0zsgepvd/Einladung%20Minitopia.pdf?dl=0). Kurzer Auszug aus dem Programm:
+Ein paar mehr Infos und die offizielle Einladung findet ihr [in diesem PDF](/pdf/Einladung_Minitopia.pdf). Kurzer Auszug aus dem Programm:
 
 - Projekt- und Partnervorstellung mit dem PermakulturCampus und SlowFood
 - Save your Bed: Sichere dir dein Selbstversorger-Beet auf Minitopia
