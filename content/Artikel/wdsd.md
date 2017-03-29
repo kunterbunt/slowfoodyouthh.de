@@ -28,3 +28,10 @@ Wann geht's los?
 Am **29. April** ist der große Tag. Damit das auch tatsächlich funktioniert, sind wir aktuell auf der Suche nach einem geeigneten Ort, an dem das Event stattfinden kann und an dem wir möglichst viele Leute erreichen.
 
 Haltet euch den Abend also frei, wir halten euch dafür auf dem Laufenden!
+
+Wo gibt's noch Schnippeldiskos?
+---
+
+Hier eine Karte, auf der hoffentlich alle Schnippeldiskos eingetragen sind:
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1WP2XzwaergzrRDaA-K5xvZV_vys" width="640" height="480"></iframe>
