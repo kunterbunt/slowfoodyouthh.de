@@ -1,0 +1,624 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Slow Food Youth Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			ul {
+				padding: 10px;
+				list-style: none;
+				margin: 0 10px;
+			}
+			li {
+				margin-top: 25px;
+			}
+			li:first-child {
+			    margin-top:0;
+			}
+
+			#bodyCell{padding:20px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#ECEFF1;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #BBBBBB;
+			}
+
+			p {
+				text-align: justify;
+			}
+
+			a {
+				text-decoration: none !important;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			h2.title {
+				margin-top: 30px;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00">
+                                                Der Slow Food Youth Newsletter für April 2017 ist da!
+																								<a href="http://www.slowfoodyouthh.de/mail/April2017.html">Bitte hier klicken, falls die Mail nicht richtig dargestellt wird!</a>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                                            <!-- <td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+                                                Email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                            </td> -->
+                                            <!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="http://slowfoodyouthh.de/imgs/logo.jpg" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+                                              <p>Liebe Slow Food Youthies,</p>
+                                              <p>Die Aktivisten des Slow Food Youth Netzwerks engagieren sich weltweit, um unsere Zukunft auf dem Land und in den St&auml;dten, im globalen Norden und globalen S&uuml;den zu gestalten. Wir haben die letzten Jahre viele Formate entwickelt: Eat-Ins, die Schnippeldisko, das Food Filmfestival, um nur einige zu nennen. Sie tragen alle unsere Botschaft mit Spa&szlig; und einer Prise kulinarischen Ungehorsams. Damit machen wir die komplexen Zusammenh&auml;nge unseres Lebensmittelsystems f&uuml;r jeden greifbar und laden Junge und Alte dazu ein, nachzudenken, zu schmecken und die Welt zu bewegen.</p>
+<p>Wir engagieren uns und wollen so die &ouml;konomischen und politischen Rahmenbedingungen &auml;ndern, um ein gutes, sauberes und faires System f&uuml;r alle zu schaffen. Wir verbreiten unsere Forderungen auf lokaler Ebene in Ern&auml;hrungsr&auml;ten oder auf nationaler und internationaler Ebene - w&auml;hrend Demos, wie der Wir Haben Es Satt Demo oder Petitionskampagnen wie bei der Leere Tonne Kampagne. Unser Engagement tr&auml;gt auch Fr&uuml;chte: so war Lebensmittelverschwendung noch vor 6 Jahren kaum ein mediales Thema. Heute findet man Artikel in allen Zeitungen und die Politik wird verpflichtet, aktiv zu werden. Zusammen k&ouml;nnen wir das System &auml;ndern.</p>
+<p>Hier sind einige kreative Kampagnen und Ideen, um die Politikwelt mit Slow Food Youth Vibes zu bewegen und unsere B&ouml;den, Umwelt, Gesundheit und Menschenrechte zu sch&uuml;tzen. Mach' mit, unterschreibe die verschiedenen B&uuml;rgerinitiativen, verbreite die Botschaft online und auf der Stra&szlig;e und erz&auml;hle uns davon!</p>
+<p>&nbsp;</p>
+<p><a href="#p4s">People 4 Soil: Dem Boden (d)eine Stimme geben</a></p>
+<p><a href="#glyphosat">Glyphosat: F&uuml;r ein Glyphosat Verbot unterschreiben</a></p>
+<p><a href="#eu">EU-Agrarpolitik Consultation: ihr seid gefragt</a></p>
+<p><a href="#nyeleni">Die Ny&eacute;l&eacute;ni Petition f&uuml;r die Rechte kleiner Bauern unterschreiben</a></p>
+<p><a href="#leeretonne">Leere Tonne: Good News von der Front gegen Lebensmittelverschwendung</a></p>
+<p><a href="#kirchentag">Kirchentag: Helfer werden noch gesucht f&uuml;r tolle Workshops</a></p>
+<p><a href="#wdsd">World Disco Soup Day: what&lsquo;s up?</a></p>
+<p><a href="#demo">DEMO gegen Bayer-Monsanto: auf der Stra&szlig;e aktiv werden</a></p>
+<p><a href="#netzwerktreffen">SFY Vernetzungstreffen am Pfingstenwochenende (2.-5. Juni)</a></p>
+<p>&nbsp;</p>
+<p id="p4s"><u><strong>People 4 Soil</strong></u></p>
+<p>Obwohl 95% unserer Lebensmittel direkt oder indirekt vom Boden erzeugt werden (FAO), behandeln wir unsere B&ouml;den wie Dreck: Erosion, Versiegelung, Verdichtung, Versalzung, Verschmutzung usw. Diese Probleme haben negative Einfl&uuml;sse auf Gesundheit, Ern&auml;hrungssicherheit, &Ouml;kosysteme, Biodiversit&auml;t, Klima und Wirtschaft. Boden kennt - genau wie Wasser - keine Grenzen, es ist deswegen extrem wichtig diese Probleme auf EU-Ebene anzupacken!</p>
+<p>Das &bdquo;People 4 Soil&ldquo; Netzwerk, das europ&auml;ische NGOs, Forschungsinstitute, Bauernverb&auml;nde und Umweltschutzgruppen zusammenbringt, versucht die EU-Politik zu bewegen. Dieses Netzwerk hat eine Europ&auml;ische B&uuml;rgerinitiative (EBI) gestartet, um Druck auf EU-Institutionen auszu&uuml;ben und B&ouml;den durch neue Gesetzgebungen zu sch&uuml;tzen. B&ouml;den sollen EU-weit als Gemeingut gelten.</p>
+<p>Wenn eine Million Unterschriften aus mindestens sieben EU-Mitgliedstaaten bis Ende September 2017 zusammenkommen, ist die EU Kommission verpflichtet, im Rahmen der Europ&auml;ischen B&uuml;rgerinitiative die Organisatoren von People4Soil anzuh&ouml;ren und ihnen formell zu antworten, welche Ma&szlig;nahmen zum Bodenschutz zu ergreifen sind. Die EBI ist auch ein politisches Werkzeug, um das Thema Bodenschutz in die Medien und die K&ouml;pfe der Menschen zu bringen.</p>
+<p>Wir brauchen Euch, um diese Unterschriften zu sammeln. Im Anhang findet ihr ein kleines How-To-Do Kit, um Unterschriften zu sammeln. Außerdem Tipps, womit zu rechnen ist und Beispiele f&uuml;r Pressemitteilungen. Schließlich gibt es noch einige "Killerfakten", um Euch bei der &Uuml;berzeugungsarbeit zu unterst&uuml;tzen.</p>
+<p>Seid kreativ mit den Formaten: Erdschlacht an einem &ouml;ffentlichen Ort mit Helmen und wei&szlig;en T-Shirts, Verteilung von Seedbombs mit Anleitung zum selber machen, Blumenk&auml;sten an einem &ouml;ffentlichen Ort aufstellen und Menschen &bdquo;pflanzen&ldquo; mit Blumenh&uuml;ten, auf einer versiegelten Fl&auml;che (z.B. in der Innenstadt) Erde in Herzform streuen und ein paar Blumen hineinpflanzen (am besten mit einer Plane drunter). Das sind nur ein paar Ideen, die ihr allein, mit eurer Slow Food Youth-Gruppe oder mit Freunden umsetzen k&ouml;nnt.</p>
+<p>Um Boden in den Sozialen Media zu thematisieren, haben wir in der letzten Zeit einige GIFs publiziert. Schick uns auch gern ein Video von Dir/Euch, wo ihr irgendwas mit Boden macht, um eure Liebe zum Boden zu &auml;u&szlig;ern: Bodenschlacht, Boden essen, etc. Nominiert dabei andere Freunden um einen Schneeballeffekt &agrave; la Earth Bucket Challenge zu kreieren. Wir wollen so unsere Botschaft auf Facebook verbreiten.&nbsp;</p>
+<p>Es gibt viele M&ouml;glichkeiten aktiv zu werden. Sei Teil der Bewegung, die dem Boden eine Stimme gibt! Mehr Infos zu der Initiative sowie was ihr selber machen k&ouml;nnt, um den Boden zu sch&uuml;tzen, findet ihr online auf unserer Homepage.</p>
+<p>&nbsp;</p>
+<p id="glyphosat"><u><strong>Glyphosat:</strong></u></p>
+<p>Genau wie f&uuml;r People 4 Soil wurde auch gegen das Pestizid Glyphosat eine EU-B&uuml;rgerinitiative gestartet. Hier brauchen wir ebenfalls eine Million Unterschriften, um die EU-Kommission zu verpflichten unsere Forderungen anzuh&ouml;ren und zu reagieren.</p>
+<p>Glyphosat ist das weltweit am meisten verwendete Pestizid und wird &uuml;berall in der Landwirtschaft verwendet. Au&szlig;er einer extrem sch&auml;digenden Wirkung f&uuml;r die Umwelt, die Artenvielfalt und den Boden, wurde Glyphosat von der Weltgesundheitsorganisation (WHO) 2015 als &bdquo;wahrscheinlich krebserregend&rdquo; eingestuft.</p>
+<p>Die EU-Kommission soll dieses Jahr darüber entscheiden, ob Glyphosat verboten wird oder f&uuml;r weitere 15 Jahre auf unsere Acker gespr&uuml;ht werden darf. &nbsp;</p>
+<p>Die Zivilgesellschaft hat sich organisiert und diese B&uuml;rgerinitiative gestartet, um gegen die Agrarlobby k&auml;mpfen zu k&ouml;nnen.</p>
+<p><a href="http://www.slowfood.com/network/de/was-wir-tun/glyphosat-stoppen/">Unterschreibt die EBI und verbreitet die Nachricht.</a></p>
+<p>&nbsp;</p>
+<p id="eu"><u><strong>GAP:</strong></u></p>
+<p>Die europ&auml;ische Agrarpolitik repr&auml;sentiert den gr&ouml;&szlig;ten Teil des EU-Budgets und hat dazu beigetragen, die Landwirtschaft auf der agroindustriellen Schiene in die Mitgliedsstaaten zu bringen. Die Struktur der aktuellen gemeinsamen Agrarpolitik (GAP) f&ouml;rdert die Idee des &bdquo;wachsen oder weichen&ldquo; mit grausamen Folgen: Bauernh&ouml;fe verschwinden mit alarmierender Geschwindigkeit - jeder vierte Bauernhof in der EU hat zwischen 2003 und 2013 aufgegeben. Auch die Biodiversität ist betroffen - global gesehen sind schon &uuml;ber 90% der Sorten- und Artenvielfalt verloren und 75% (!) aller Lebensmittel werden aus nur zwölf (!!) Pflanzensorten und fünf (!!!) Tierarten gewonnen.</p>
+<p>Allerdings wird 2020 die GAP reformiert. Die EU-Kommission hat k&uuml;rzlich eine &ouml;ffentliche Umfrage zur &bdquo;Modernisierung und Vereinfachung der Gemeinsamen Agrarpolitik&ldquo; (GAP) gestartet. <a href="https://ec.europa.eu/agriculture/consultations/cap-modernising/2017_de">Hier k&ouml;nnt ihr bis zum 2. Mai 2017 an der Umfrage teilnehmen.</a></p>
+<p>Slow Food Youth Deutschland ruft zusammen mit&nbsp;&uuml;ber 130 europ&auml;ischen Zivilgesellschaftsorganisationen aus den Bereichen Landwirtschaft, Umwelt, Entwicklung, Klima, artgerechte Tierhaltung und Ernährung f&uuml;r einen radikalen Kurswechsel hin zu einem &ouml;kologisch-nachhaltigen Ern&auml;hrungssystem auf.&nbsp;Mehr dazu k&ouml;nnt ihr <a href="http://www.slowfood.de/presse/pressemitteilungen/pressemitteilungen_2017/pm_ueber_130_eu_organisationen_fordern_radikale_umgestaltung_der_gemeinsamen_eu_agrarpolitik/">hier</a> und <a href="http://www.db.zs-intern.de/uploads/1491290413-2017Verb%C3%A4ndeplattform.pdf">hier</a> erfahren.</p>
+
+<p id="nyeleni"><u><strong>Die Petion der </strong></u><u><strong>Ny&eacute;l&eacute;ni </strong></u><u><strong>Bewegung f&uuml;r die Rechte von Bauern und B&auml;uerinnen</strong></u><u><strong>:</strong></u></p>
+<p>Slow Food Youth ist Teil der Ny&eacute;l&eacute;ni Bewegung. Wir setzen uns durch unsere Aktionen f&uuml;r Ern&auml;hrungssouver&auml;ni&auml;t weltweit ein. Dabei wollen wir die Rechte von Kleinbauern sch&uuml;tzen und st&auml;rken. B&auml;uerliche Landwirtschaft ist in Gefahr und muss gegen die versch&auml;rfte Konkurrenz von Riesenbetrieben, gigantischen Agrarkonzernen und einer fehlgeleitete Subventionspolitik anstinken.</p>
+<p>Ny&eacute;l&eacute;ni fordert deswegen die EU und ihre Mitgliedsstaaten dazu auf, sich im Menschenrechtsrat aktiv und aufrichtig in die Erarbeitung der "UN-Erkl&auml;rung f&uuml;r die Rechte von B&auml;uerinnen, Bauern und anderen Personen, die am Land arbeiten" einzubringen.</p>
+<p>Lasst uns zusammen das Au&szlig;enministerium auffordern, die Rechte von Bauern und B&auml;uerinnen anzuerkennen, inklusive ihrer Rechte auf Land, Saatgut, Biodiversit&auml;t, Produktionsmittel und ein angemessenes Einkommen.</p>
+<p>Lasst uns f&uuml;r Ern&auml;hrungssouver&auml;nit&auml;t heute ein Zeichen setzen und <a href="https://peasantsrights.eu/">hier unterschreiben</a>.</p>
+<p id="leeretonne"><u><strong>Leere Tonne</strong></u></p>
+<p>Anfang M&auml;rz 2017 hat die Landesregierung von Nordrhein-Westfalen einen Antrag an den Bundesrat gestellt, um die Bundesregierung an ihre Verantwortung f&uuml;r eine Strategie f&uuml;r die gesamte Wertsch&ouml;pfungskette vom Feld zum Teller und gegen Lebensmittelverschwendung zu erinnern. Ein Vorschlag ist es, ein Lebensmittelwegwerfverbot f&uuml;r Superm&auml;rkte wie in Frankreich oder Finnland zu entwickeln.</p>
+<p>Der Antrag ist durchgekommen, der Bundesrat hat am 31.03.2017 eine <a href="http://www.bundesrat.de/SharedDocs/drucksachen/2017/0101-0200/180-17.pdf?__blob=publicationFile&amp;v=5">eine Entscheidung</a> gefasst und an die Bundesregierung weitergeleitet. Ein solcher Beschluss im Bundesrat allein macht noch keinen gesetzlichen Wegwerfstopp. Der Ball liegt nun wieder im Feld von Bundesagrarminister Christian Schmidt. Das ist kein besonders gutes Zeichen, denn der hatte bisher noch &uuml;berhaupt keine Lust, sich genauer mit der Rolle des Handels beim gro&szlig;en Wegwerfen und bei der Nicht-Wertsch&auml;tzung von Lebensmitteln zu besch&auml;ftigen.</p>
+<p>Wir brauchen also Euch, um Druck aufzubauen. Wir stellen deswegen die Leere Tonne Petition wieder Online. Unterschreibt, leitet sie weiter und verbreitet so die wichtige Botschaft.</p>
+<p>&nbsp;</p>
+<p id="kirchentag"><u><strong>Kirchentag : </strong></u><u><strong>24.-28. Mai 2017</strong></u></p>
+<p>Vom 24.&ndash;28. Mai findet in Berlin der Kirchentag statt. Slow Food koordiniert hier gemeinsam mit einigen anderen Organisationen das Programm im Zentrum Jugend und im Zentrum Kinder. Dort finden verschiedene Veranstaltungen wie Schnippeldiskos und Mitmachaktionen statt.&nbsp;</p>
+<p align="justify">Der Kirchentag ist eine riesige Veranstaltung, w&auml;hrend der in der ganzen Stadt Konzerte, Vortr&auml;ge und Workshops stattfinden. Wir haben die M&ouml;glichkeit, f&uuml;r einige von Euch die Reisekosten zu &uuml;bernehmen und P&auml;sse zu organisieren, daf&uuml;r br&auml;uchten wir wiederum f&uuml;r ein paar Stunden am Tag Eure tatkr&auml;ftige Unterst&uuml;tzung. Die restliche Zeit k&ouml;nnt Ihr selbstverst&auml;ndlich nutzen, um die vielen spannenden Aktionen zu bestaunen.</p>
+<p align="justify">Meldet Euch bitte bei <a href="mailto:youth@slowfood.de">youth@slowfood.de</a> bis 5.Mai 2017</p>
+<p><a href="https://www.kirchentag.de/">Mehr Infos hier.</a></p>
+<p>&nbsp;</p>
+<p id="wdsd"><u><strong>World Disco Soup Day : 29. April 2017</strong></u></p>
+<p>Vom Slow Food Youth Network angesto&szlig;en, findet dieses Jahr der allererste &bdquo;World Disco Soup Day&ldquo; statt. Am 29. April 2017 werden weltweit Schnippeldiskos organisiert. Im Iran, Brasilien, Uganda, Japan, den Niederlanden und vielen weiteren L&auml;ndern werden tausende schnippelnde und tanzende Menschen gemeinsam ein Zeichnen gegen Lebensmittelverschwendung und f&uuml;r mehr Wertsch&auml;tzung von Lebensmitteln und die dahinter stehende Arbeit setzen. Eine Weltkarte mit den verschiedenen Schnippeldiskos findet ihr <a href="https://www.google.com/maps/d/viewer?mid=1WP2XzwaergzrRDaA-K5xvZV_vys&amp;ll=9.080134853879663%2C32.66529283719183&amp;z=3">hier</a></p>
+<p>In Deutschland gibt es gleich zwei Anlässe: in Hamburg, M&uuml;nster, Blunk und Fulda wird nicht nur gegen Lebensmittelverschwendung geschnippelt, gekocht und gegessen. Es wird auch wegen der 25 Jahr-Feier von Slow Food Deutschland und unserer Arbeit f&uuml;r eine gute, saubere und faire Lebensmittelwelt zusammen gefeiert.</p>
+<p>Mehr Infos zu Ort und Uhrzeit der einzelnen Veranstaltungen findet ihr auf <a href="http://www.slowfoodyouth.de/">www.slowfoodyouth.de</a></p>
+<p>&nbsp;</p>
+<p id="demo"><u><strong>DEMO gegen Bayer-Monsanto</strong></u></p>
+<p>Am 29. April findet in Bonn die Hauptversammlung vom Agrarkonzern BAYER statt. Die &Uuml;bernahme von MONSANTO durch den BAYER-Konzern versch&auml;rft die bereits jetzt existierenden, verheerenden politischen, &ouml;kologischen und sozialen Probleme im Zusammenhang mit Konzernmacht und Konzernprofiten. Heute beherrschen sechs Chemiekonzerne mehr als 60% des Marktes f&uuml;r kommerzielles Saatgut. Nach den verschiedenen angek&uuml;ndigten Fusionen in 2017 w&uuml;rden das nur noch drei Konzerne sein. Es ist eine Katastrophe f&uuml;r unsere Souver&auml;nit&auml;t, wer die Saat in den H&auml;nden h&auml;lt, hat auch das Sagen und bestimmt die Zukunft unseres Essens und der Umwelt.</p>
+<p>Wir wehren uns gegen diese Quasi-Monopolisierung. In K&ouml;ln, Bonn und Berlin werden Aktionen vor und am Tag der Hauptversammlung abgehalten, um der Welt zu zeigen, dass die B&uuml;rger die Absolutmacht der Agrarkonzerne nicht akzeptiert. Sei dabei und laut, und bestimme selbst, wie die Landwirtschaft der Zukunft aussehen soll!</p>
+<p>&nbsp;</p>
+<p><strong>&gt; Podiumsdiskussion in Bonn&nbsp;</strong></br>
+am 25. April 19:30 Uhr in der Uni Bonn mit&nbsp;CBG, Navdanya, IFOAM u.a.</p>
+<p><strong>&gt; Internationales Townhall Meeting&nbsp;"BAYER &amp; Monsanto: Finger weg von unserem Essen!"&nbsp;&nbsp;</strong></br>
+am 27. April 19:30 Uhr in K&ouml;ln mit Navdanya, IFOAM, CBG u.a.</p>
+<p><strong>&gt;</strong><strong> Vielf&auml;ltige Protestaktionen&nbsp;vor der BAYER-Hauptversammlung<br /></strong>am 28. April 7 Uhr bis 10 Uhr morgens in Bonn (Platz der Vereinten Nationen)</p>
+<p><strong>&gt; Demonstration&nbsp;&bdquo;STOP BAYER/MONSANTO!"&nbsp;&nbsp;vor der BAYER-Hauptversammlung<br /></strong>am 28. April 8:30 Uhr morgens in Bonn (Platz der Vereinten Nationen)</p>
+<p><strong>&gt; Aktionen und Reden in der BAYER-Hauptversammlung&nbsp;<br /></strong>
+  am 28. April 10 Uhr bis 18 Uhr (World Conference Center Bonn)</p>
+<p><strong>&gt; Internationale Pressekonferenz&nbsp;<br /></strong>am 28. April 11 Uhr in Bonn (IFOAM - Organics International, Charles-de-Gaulle-Stra&szlig;e 5)</p>
+<p><strong>&gt; Demonstration&nbsp;&bdquo;STOP BAYER/MONSANTO!"&nbsp;in Berlin<br /></strong>am 29. April 14 Uhr in Berlin (Petersburgerstra&szlig;e)&nbsp;</p>
+<p>&nbsp;</p>
+<p id="netzwerktreffen"><strong>SFY Vernetzungstreffen am Pfingstenwochenende (2.-5. Juni)</strong></p>
+<p>Wir treffen uns dieses Jahr wieder in Altenkirchen (1 Stunde von K&ouml;ln mit dem Zug), um voneinander zu lernen. Wir haben schon einige Referenten und hei&szlig;e Themen geplant, also sei dabei! Vorhin solltet ihr bereits eine Mail mit dem Anmeldungsformular bekommen haben. Achtung, es gibt nur begrenzte Pl&auml;tze! Die Reisekosten werden &uuml;bernommen.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+																								<a href="http://slowfoodyouth.de/">Slow Food Youth</a>
+																								<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                                                <a href="https://www.facebook.com/yfm.deutschland">Facebook</a>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0; padding-bottom:40px;" mc:edit="footer_content02">
+                                            	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr> -->
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
