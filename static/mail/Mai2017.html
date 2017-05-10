@@ -1,0 +1,560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Slow Food Youth Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			ul {
+				padding: 10px;
+				list-style: none;
+				margin: 0 10px;
+			}
+			li {
+				margin-top: 25px;
+			}
+			li:first-child {
+			    margin-top:0;
+			}
+
+			#bodyCell{padding:20px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#ECEFF1;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #BBBBBB;
+			}
+
+			p {
+				text-align: justify;
+			}
+
+			a {
+				text-decoration: none !important;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			h2.title {
+				margin-top: 30px;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00">
+                                                Der Slow Food Youth Newsletter für Mai 2017 ist da!
+																								<a href="http://www.slowfoodyouthh.de/mail/Mai2017.html">Bitte hier klicken, falls die Mail nicht richtig dargestellt wird!</a>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                                            <!-- <td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+                                                Email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                            </td> -->
+                                            <!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="http://slowfoodyouthh.de/imgs/logo.jpg" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+																							<p>Liebe Slow Food Youthies,</p><p>Es tut sich was in der Slow Food Welt: Schnippeldiskos überall, eine neue Gruppe, Sachen zu lesen und die Möglichkeit, sich zu vernetzen. All das erwartet Euch in diesem Newsletter!</p>
+
+																							<p><a href="#treffen">Vernetzungstreffen: Anmeldung bis zum 15. Mai</a></p>
+																							<p><a href="#kirchentag">Kirchentag vom 25. - 26. Mai : Helfer gesucht!</a></p>
+																							<p><a href="#rueckblick">RÜCKBLICK: Messe und WDSD und Leere Tonne Aktion</a></p>
+																							<p><a href="#deichbrand">Lust auf das Deichbrand Festival und das Backstage Catering?</a></p>
+																							<p><a href="#tipps">Nahrung für die Seele : Ein paar Lesetipps</a></p>
+
+																							<p><br/></p><u><strong><p id="treffen">Vernetzungstreffen: Anmeldung bis zum 15. Mai</p><p></strong></u>Es gibt noch Plätze für das Vernetzungstreffen. Es findet vom 2. - 5. Juni 2017 in der Landjugend Akademie in Altenkirchen (1 Stunde mit dem Zug von Köln) statt. Die Reisekosten können für Slow Food Mitglieder nach der Veranstaltung abgerechnet werden. Slow Food Youth übernimmt auch für Mitglieder die Unterkunft und Verpflegungskosten. Wir bitten aber um eine kleine Beteiligung von 15€ für das Wochenende. Wer sich den Beitrag nicht leisten kann, aber gern teilnehmen möchte, kann sich gerne per Email unter <a class="external-link" href="mailto:youth@slowfood.de" rel="nofollow">youth@slowfood.de</a> melden.</p><p>An dem Wochenende kommen Slow Food Youth und andere junge Food-Begeisterte und Aktivisten aus ganz Deutschland zusammen. Es wird viel diskutiert, sowohl über die Zukunft des Ernährungssystems als auch über die Zukunft des Netzwerks: Mit welchen Herausforderungen seid Ihr als VerbraucherInnen/ProduzentInnen im Alltag konfrontiert? Was habt ihr als AktivistInnen-Gruppe oder als Aktive gerade auf dem Zettel für die nächste Zeit? Was ist das Problem mit Mega-Fusionen von Agrarkonzernen? Wie organisiert man sich auf lokaler, regionaler und Bundesebene? Wie gründe ich ein Food Business? Was ist Qualität für Slow Food? usw.</p><p>Philosophische, ethische und auch sehr praktische Fragen werden wir gemeinsam mit Experten und unter uns am Wochenende besprechen. Natürlich wird auch gemeinsam gekocht, gegessen, gespielt, gelacht und (warum auch nicht?) getanzt (bringt Playlisten und Instrumente mit). Das Vernetzungstreffen ist DIE Gelegenheit das Netzwerk kennenzulernen und Slow Food Youth Energie zu tanken.</p><p>An dem Wochenende werden wir auch die neue <a class="external-link" href="https://shareoc.slowfood.de/index.php/s/8Fw6jJymd3MMmoz" rel="nofollow">Youth Leitung</a> wählen! Wer Lust hat sich zur Wahl zu stellen oder noch unsicher ist, kann der aktuellen Youth Leitung (youthleitung@<a class="external-link" href="http://slowfood.de" rel="nofollow">slowfood.de</a>) schreiben oder an einer Telko mit der Youth Leitung teilnehmen (bitte per Email melden, um die Einwahldaten zu bekommen.)</p><p><a class="external-link" href="https://shareoc.slowfood.de/index.php/s/FYaUR5LSgX1cl7D" rel="nofollow">Hier</a> könnt ihr das Programm lesen und <a class="external-link" href="https://shareoc.slowfood.de/index.php/s/jJl0kr5lYVd6H75" rel="nofollow">Hier</a> findet ihr das Anmeldungsformular. Bitte bis zum 15. Mai an <a class="external-link" href="mailto:youth@slowfood.de" rel="nofollow">youth@slowfood.de</a> schicken. Eine Rückmeldung, ob ihr dabei seid bekommt ihr dann folgende Woche.<br/><br/></p><p><br/></p><u><strong><p id="kirchentag">Kirchentag vom 25. - 26. Mai : Helfer gesucht!</p></strong></u><p>Vom 24.–28. Mai findet in Berlin der Kirchentag statt. Es ist eine riesige Veranstaltung, während der in der ganzen Stadt Konzerte, Vorträge und Workshops stattfinden. Ernährung und Landwirtschaft spielen dort auch eine große Rolle. Slow Food ist natürlich dabei und wird das Kinder und Jugend Zentrum rocken, und neben einer 3 Tage-langen-Schnippeldisko auch tolle Mitmachangebote und Workshops anbieten. Dafür brauchen wir aber eure Unterstützung. Ihr interessiert euch für Ernährungsbildung und habt Lust neue Methoden um Slow Food Themen zu vermitteln und zu entdecken? Dann kommt vorbei!  Wir haben die Möglichkeit, noch für einige Helfer die Reisekosten zu übernehmen und Pässe zu organisieren, dafür bräuchten wir wiederum für ein paar Stunden am Tag eure tatkräftige Unterstützung. Die restliche Zeit könnt Ihr selbstverständlich nutzen, um die vielen spannenden Aktionen zu bestaunen.</p><p>Wer Interesse hat, soll sich so schnell wie möglich bei <a class="external-link" href="mailto:youth@slowfood.de" rel="nofollow">youth@slowfood.de</a> melden. <br/><br/></p><p><br/></p><p>Neue Gruppe in Lüneburg; Unterstützung/ Slow Food Youth Aktive gesucht im Raum Aschaffenburg</p><p>In Lüneburg tut sich gerade was: eine neue Gruppe ist am Start. Ihr seid in der Nähe und wollt euch involvieren? Dann findet ihr mehr Infos auf <a class="external-link" href="https://www.facebook.com/groups/289317784813400/?fref=nf" rel="nofollow">Facebook</a>.<br/>Auch in Aschaffenburg sucht der Christoph ein paar Aktive die eine Slow Food Youth Gruppe gründen möchten. Wer Interesse hätte mitzuwirken kann sich gerne bei <a class="external-link" href="mailto:youthleitung@slowfood.de" rel="nofollow">youthleitung@slowfood.de</a> oder <a class="external-link" href="mailto:youth@slowfood.de" rel="nofollow">youth@slowfood.de</a> melden!</p><p><br/></p><p><br/></p><u><strong><p id="rueckblick">RÜCKBLICK: Messe und WDSD und Leere Tonne Aktion</p></strong></u><p>Vom 20.-23. April 2017 fand in Stuttgart die Slow Food Messe &quot;Markt des guten Geschmacks&quot; statt. Bei dem Kinder- und Jugendstand hatten die Teilnehmer die Gelegenheit,<span class=" _50f4"> mehr über unser Lebensmittelsystem zu erfahren.</span> Sie haben kräftig Butter geschüttelt, ihr Wissen zum Thema Artenvielfalt getestet und dabei gelernt <span class="fbPhotosPhotoCaption"><span class="hasCaption">wie viele Rüssel eine lila Kuh hat, </span></span>und versuchten den Unterschied<span class="fbPhotosPhotoCaption"><span class="hasCaption"> zwischen handwerklich und industriell hergestellten Joghurts zu riechen und schmecken</span></span>. <a class="external-link" href="https://www.facebook.com/media/set/?set=a.1504467009586827.1073741853.219963248037216&amp;type=1&amp;l=8ce7b892ef" rel="nofollow">Hier</a> könnt ihr ein paar Eindrücke bekommen. Außerdem haben zwei kostümierte &quot;Bodenhaufen&quot; einen kleinen Spaziergang durch die Messe gemacht und Unterschriften für die Europäische Bürgerinitiative &quot;<a class="external-link" href="https://www.people4soil.eu/de" rel="nofollow">People4Soil</a>&quot; gesammelt. Ihr wollt auch Unterschriften sammeln? Dann schaut in die Anleitung <a class="external-link" href="https://shareoc.slowfood.de/index.php/s/5dvja7357M96D3r" rel="nofollow">How-to-Unterschriften sammeln</a>!</p><p>Am 29.04. fand die allererste World Disco Soup Day überall auf dem Planeten statt. Insgesammt wurden über 100 Schnippeldiskos in 40 Ländern organisiert, internationalen Medien haben darüber berichtet. Es war das erste Mal, dass das Slow Food Youth Netzwerk eine solche graswurzel-organisierte Veranstaltung auf die Beine gestellt hat und wir sind überglücklich dass es geklappt hat. Alle zusammen von Tokyo bis Rio über Amsterdam und Teheran haben wir der ganzen Welt gezeigt : wir sind alle vom Skandal der Lebensmittelverschwendung betroffen. Alle, in unserer Slow Food Vielfalt glauben daran, dass wir eine bessere Zukunft mit Gabel und Kochlöffel zaubern können! Auch in Münster, Fulda, Hamburg und Blunk waren die Dancefloor und Kochplatten heiß! Also wir sagen: HUT AB UND DANKESCHÖN!<span> Eindrücke bekommt ihr <a class="external-link" href="http://slowfoodyouth.de/5198-2/" rel="nofollow">Hier</a>.<br/></span></p><p>Am 2. Mai anlässlich des Tages der Lebensmittelverschwendung<span> protestierte die Kampagne „Leere Tonne – Wegwerfstopp für Supermärkte&quot; vor dem Bundesagrarministerium. Drei Aktive in Anzügen und mit identischen Agrarminister-Masken hockten auf roten Mülltonnen und hielten sich Augen, Ohren bzw. den Mund zu. Zahlreiche Essensretter, etliche von ihnen in bunten Gemüse-Kostümen, protestierten gegen diese Ignoranz. Foto von der Aktion findet ihr <a class="external-link" href="http://bit.ly/aktionagrar" rel="nofollow">Hier</a>. <br/></span></p><p><br/></p><u><strong><p id="deichbrand">Lust auf das Deichbrand Festival und das Backstage Catering?</p></strong></u><p>Martin Svitek (Karmakitchen) sucht wieder engagierte <strong>Slow Foodies</strong> für das Deichbrand Backstage Catering (Künstler&amp;Crew).<br/>Das Deichbrandfestival findet in Nordholz (Cuxhaven) an der Nordsee statt. Der gesamte Zeitraum ist der 15. - 25. Juli 2017. Über den gesamten Zeitraum werden nicht so viele Personen gebraucht. Die Haupttage sind um das Wochenende  Do. 20.07 bis Fr. 23.07. Hier brauchen wir die meisten Leute, ihr könnt also auch nur Do.-bis So. angeben, wie ihr könnt... Übernachtet wird auf dem Crew Campingplatz (eigener Platz abgelegen von den Festival Gästen, mit Dusch- und Toilettencontainern). Anstellung und Bezahlung als <strong>&quot;</strong><span style="color: rgb(0,0,0);"><strong>Kurzfristige gewerbliche Minijobs&quot;.</strong> Wenn ihr euch bewerbt, ist es wichtig, dass ihr so abgerechnet werden könnt. Bitte informiert euch vorab <a class="external-link" href="https://www.minijob-zentrale.de/DE/01_minijobs/02_gewerblich/01_grundlagen/02_kurzfristige_gewerbliche_minijobs/node.html;jsessionid=8EF269BADD68A7FE4F47D04AC4BFC263" rel="nofollow">hier</a>.</span></p><p>Stundenlohn ist der Mindestlohn von 8,84€. Gearbeitet wird in Schichten, 8 Stunden pro Tag. Essen und Trinken wird gestellt. Ihr seid kostenlos/bezahlt auf dem Festival ;). <a class="external-link" href="http://www.deichbrand.de/" rel="nofollow">Hier</a> findet ihr die Seite des Festivals:</p><p>Anmeldung und Fragen bitte an <strong><a class="external-link" href="mailto:maike.senne@gmail.com" rel="nofollow">maike.senne@gmail.com</a></strong> mit dem Betreff Deichbrand 2017. Anmeldung so bald wie möglich, es gilt das &quot;Frühe-Vogel-Prinzip&quot;, Slow Food Mitglieder werden bevorzugt.</p><p><br/></p><u><strong><p id="tipps">Nahrung für die Seele: Ein paar Lesetipps</p></strong></u><p>Ihr wollt Euch zum Thema Konzernmacht und Saatgut informieren? Das Buch von Anja Banzhaf &quot;<a class="external-link" href="http://www.saatgutkampagne.org/PDF/Banzhaf_SAATGUT_freierdownload.pdf" rel="nofollow">Wer die Saat hat, hat das Sagen</a>&quot; steht jetzt zum freien Download auf die Website der Saatgut Kampagne.<br/>Zum Thema Konzernmacht und Fusionswelle im Bereich Landwirtschaft könnt ihr Euch mit der Streitschrift &quot;<a class="external-link" href="https://www.aktion-agrar.de/wp-content/uploads/2017/04/Streitschrift_BayerMonsanto_Wettbewerbsrecht_Ansicht.pdf" rel="nofollow">Fusion Bayer &amp; Monsanto Streitschrift gegen die Ohnmacht der Wettbewerbskontrol</a>&quot; weiter informieren.<br/>Lust was über Agraökologie zu erfahren? Die neue Ausgabe von &quot;<a class="external-link" href="https://www.ileia.org/wp-content/uploads/2017/04/FM_01_2017_Web_LR_FINAL.pdf" rel="nofollow">Farming Matters</a>&quot; wurde zusammen mit der Nyéléni Bewegung vorbereitet und könnt ihr auch Online finden.</p><p><br/></p>
+                    </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+																								<a href="http://slowfoodyouth.de/">Slow Food Youth</a>
+																								<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                                                <a href="https://www.facebook.com/yfm.deutschland">Facebook</a>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0; padding-bottom:40px;" mc:edit="footer_content02">
+                                            	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr> -->
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
