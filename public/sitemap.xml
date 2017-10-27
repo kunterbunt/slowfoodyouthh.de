@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/</loc>
-    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://www.slowfoodyouthh.de/artikel/altonale2017/</loc>
@@ -72,7 +68,72 @@
   </url>
   
   <url>
-    <loc>http://www.slowfoodyouthh.de/mail/Dezember2016/</loc>
+    <loc>http://www.slowfoodyouthh.de/tags/</loc>
+    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/mail/dezember2016/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/alles/</loc>
+    <lastmod>2016-01-01T22:19:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/artikel/</loc>
+    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/ausflug/</loc>
+    <lastmod>2016-05-13T09:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/event/</loc>
+    <lastmod>2017-04-29T10:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/mail/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/mehr/</loc>
+    <lastmod>2016-01-01T22:19:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/projekt/</loc>
+    <lastmod>2017-04-07T19:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/schnippeldisko/</loc>
+    <lastmod>2016-09-11T13:46:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/</loc>
+    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/</loc>
+    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

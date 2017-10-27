@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alles-rss on Slow Food Youth Hamburg</title>
-    <link>http://www.slowfoodyouthh.de/alles/index.xml</link>
-    <description>Recent content in Alles-rss on Slow Food Youth Hamburg</description>
+    <title>Alles on Slow Food Youth Hamburg</title>
+    <link>http://www.slowfoodyouthh.de/alles/</link>
+    <description>Recent content in Alles on Slow Food Youth Hamburg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Fri, 01 Jan 2016 22:19:29 +0200</lastBuildDate>
-    <atom:link href="http://www.slowfoodyouthh.de/alles/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.slowfoodyouthh.de/alles/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title></title>
@@ -15,8 +17,7 @@
       <pubDate>Fri, 01 Jan 2016 22:19:29 +0200</pubDate>
       
       <guid>http://www.slowfoodyouthh.de/alles/placeholder/</guid>
-      <description>&lt;p&gt;You shouldn&amp;rsquo;t see this.&lt;/p&gt;
-</description>
+      <description>You shouldn&amp;rsquo;t see this.</description>
     </item>
     
   </channel>
