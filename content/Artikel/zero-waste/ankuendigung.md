@@ -1,5 +1,5 @@
 +++
-title = "Ankuendigung"
+title = "Zero Waste Blog Ankündigung"
 summary = "Wir werden über die Adventszeit 2017 einen Miniblog über das Thema Müll schreiben!"
 date = 2017-12-03T18:45:38+01:00
 tags = ["zero-waste"]
