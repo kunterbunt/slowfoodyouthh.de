@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.slowfoodyouthh.de/artikel/zero-waste/ankuendigung/</loc>
+    <lastmod>2017-12-03T18:45:38+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.slowfoodyouthh.de/artikel/altonale2017/</loc>
     <lastmod>2017-05-17T15:54:18+02:00</lastmod>
   </url>
@@ -74,7 +79,7 @@
   
   <url>
     <loc>http://www.slowfoodyouthh.de/artikel/</loc>
-    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
+    <lastmod>2017-12-03T18:45:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,13 +120,19 @@
   
   <url>
     <loc>http://www.slowfoodyouthh.de/</loc>
-    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
+    <lastmod>2017-12-03T18:45:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.slowfoodyouthh.de/tags/</loc>
     <lastmod>2017-05-17T15:54:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/zero-waste/</loc>
+    <lastmod>2017-12-03T18:45:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   

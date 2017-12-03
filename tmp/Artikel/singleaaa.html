@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <a href={{.Site.BaseURL}}><button class="mdl-button mdl-js-button"><i class="material-icons">arrow_back</i></button></a><span class="mdl-layout-title">Slow Food Youth Hamburg</span><i class="mdl-cell--hide-phone material-icons">keyboard_arrow_right</i><a href="/{{lower .Section}}"class="mdl-cell--hide-phone">{{.Section}}</a><i class="mdl-cell--hide-phone material-icons">keyboard_arrow_right</i><a class="mdl-cell--hide-phone"> {{.Title}}</a>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="container--logo mdl-grid mdl-grid--no-spacing">
+          <div class="mdl-layout-spacer mdl-cell--hide-phone"></div>
+          <div class="image image--logo mdl-cell mdl-cell--6-col" style="background-image: url({{.Params.logo}})"></div>
+          <div class="mdl-layout-spacer mdl-cell--hide-phone"></div>
+        </div>
+        <article class="container--content mdl-grid">
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell mdl-cell--6-col">
+            <h1 class="text--centered">{{.Title}}</h1>
+            {{.Content}}
+          </div>
+          <div class="mdl-layout-spacer"></div>
+        </article>
+        {{partial "footer.html" .}}
+      </div>
+    </main>
+  </div>
+</body>
