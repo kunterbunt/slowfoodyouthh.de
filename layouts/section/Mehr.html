@@ -28,7 +28,7 @@
           <div class="mdl-cell mdl-cell--6-col">
             <i class="material-icons">&#xE5C5;</i>
             <div class="vertical-line vertical-line--50px"></div>
-            {{ range first 15 (where .Site.Pages "Section" "==" "Artikel") }}
+            {{ range (where .Site.RegularPages "Section" "==" "Artikel") }}            
               <div class="article">
                 <a href="{{.Permalink}}" title="{{.Title}}" target="_self">
                   <span class="article__date">{{.Date.Format "January 2"}}</span>
@@ -40,8 +40,8 @@
               </div>
               <div class="vertical-line"></div>
             {{ end }}
-            <a href="/alles" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-              ZEIG MIR ALLES
+            <a href="/" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+            ZURÜCK
             </a>
           </div>
           <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>

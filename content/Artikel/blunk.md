@@ -4,6 +4,7 @@ title = "Blunk"
 tags = ["Ausflug"]
 summary = "Ein Ausflug nach Blunk ist immer eine Reise wert."
 logo = "/imgs/blunk/logo.jpg"
+draft = false
 +++
 Am 9. Januar 2016 haben wir uns gemeinsam auf einen kleinen Ausflug begeben. Morgens um 10 Uhr ging es am Hamburger Hauptbahnhof los - ganz gemütlich fuhren wir durch verschneite Landschaften unter strahlend blauem Himmel nach Bad Segeberg und weiter in das kleine Nachbarörtchen Blunk.<!--more-->
 
