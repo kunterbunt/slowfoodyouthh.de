@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Slow Food Youth Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			ul {
+				padding: 10px;
+				list-style: none;
+				margin: 0 10px;
+			}
+			li {
+				margin-top: 25px;
+			}
+			li:first-child {
+			    margin-top:0;
+			}
+
+			#bodyCell{padding:20px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#ECEFF1;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #BBBBBB;
+			}
+
+			p {
+				/*text-align: justify;*/
+			}
+
+			a {
+				text-decoration: none !important;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			h2.title {
+				margin-top: 30px;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00">
+                                                Der Slow Food Youth Newsletter für den Oktober 2018 ist da!
+																								<a href="http://www.slowfoodyouthh.de/mail/Oktober2018.html">Bitte hier klicken, falls die Mail nicht richtig dargestellt wird!</a>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                                            <!-- <td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+                                                Email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                            </td> -->
+                                            <!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="http://slowfoodyouthh.de/imgs/terra_madre_2018.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+
+
+
+
+																							<h2 class="western" align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Liebe Slow Food Youth,</span></span></span></span></span></span></span></strong></h2>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Liebe Freunde, Freundinnen und Interessierte,</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify">&nbsp;</p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">gerade haben wir ihn angek&uuml;ndigt, schon ist er wieder vorbei: der Terra Madre Kongress in Turin hat vielen von uns mal wieder die Gelegenheit gegeben zusammenzukommen, uns auszutauschen und sowohl untereinander, als auch mit Menschen aus aller Welt zu vernetzen. Und weil das immer so sch&ouml;n ist und wir weiterhin untereinander im Austausch bleiben wollen und sollen, kn&uuml;pfen wir an unser Treffen direkt an und freuen uns, euch unser n&auml;chstes </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;">Netzwerktreffen vom 09.-11. November in Fulda </span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">anzuk&uuml;ndigen. </span></span></span></span></span></span></span></strong></p>
+																							<p align="justify">&nbsp;</p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Was euch sonst noch in diesem Newsletter erwartet, </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">lest</span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> ihr hier:</span></span></span></span></span></span></span></strong></p>
+																							<ul>
+																							<li>
+																							<p align="justify"><a href="#netzwerktreffen">Slow Food Youth Deutschland Netzwerktreffen &ndash; 09.-11. November in Fulda</a></p>
+																							</li>
+																							<li>
+																							<p align="justify"><a href="#aktionstage">EU-Aktionstage &bdquo;Good Food &amp; Good Farming&ldquo; &ndash; 27.-28. Oktober in der ganzen EU</a></p>
+																							</li>
+																							<li>
+																							<p align="justify"><a href="#terramadre">R&uuml;ckblick: Terra Madre Salone del Gusto in Turin</a></p>
+																							</li>
+																							</ul>
+																							<p align="justify">&nbsp;</p>
+																							<p id="netzwerktreffen" align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="text-decoration: none;">Slow Food Youth Deutschland Netzwerktreffen &ndash; 09.-11. November in Fulda</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">In einem Monat ist es so weit: Wir treffen uns wieder zu einem Netzwerktreffen von Slow Food Youth und dort wollen wir DICH kennenlernen! </span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Nachdem wir uns beim letzten Treffen vor etwa einem halben Jahr sehr intensiv mit der Gemeinsamen Agrarpolitik der EU besch&auml;ftigt, viel Wissen gesammelt und Handlungsm&ouml;glichkeiten besprochen haben, wollen wir das jetzige Treffen nutzen, um unser Netzwerk zu st&auml;rken. Der Fokus liegt diesmal auf unseren Themen und Projekten &ndash; Was besch&auml;ftigt Dich? Was m&ouml;chtest Du in der n&auml;chsten Zeit bewegen und ver&auml;ndern? Hast Du Projektideen, f&uuml;r deren Umsetzung Du noch Unterst&uuml;tzung brauchst? Oder hast Du bisher von Slow Food und Slow Food Youth eigentlich noch gar nicht so richtig viel mitbekommen, aber irgendwie doch Lust, einmal herauszufinden, was f&uuml;r ein bunter Haufen sich eigentlich hinter diesem Namen versteckt? Perfekt! F&uuml;r all&lsquo; diese Fragen und andere Dinge, die euch bewegen ist dieses Treffen der richtige Ort. Wir wollen zusammenkommen, uns inspirieren, austauschen und gegenseitig motivieren, um voller neu gewonnener super Power in die kalte Jahreszeit zu starten. Also, worauf wartest Du noch?</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Schicke uns Deine </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;">Anmeldung</span></span></span></span></span></span></strong> <strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;">bitte</span></span></span></span></span></span></strong> <strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;">bis zum 21. Oktober per Mail an </span></span></span></span></span></span></strong><strong><a href="mailto:youth@slowfood.de">youth@slowfood.de</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">. Trage Dich au&szlig;erdem mit deinen Kontaktdaten in </span></span></span></span></span></span></span></strong><strong><a href="https://share.slowfood.de/s/BprqRZHzX7WQZNY">diese online Tabelle</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> ein.</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify">&nbsp;</p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Hier ein paar Details:</span></span></span></span></span></span></span></strong></p>
+																							<table style="height: 740px;" width="559" cellspacing="0" cellpadding="4">
+																							<tbody>
+																							<tr valign="top">
+																							<td style="border-color: #ffffff currentcolor #ffffff #ffffff; border-style: solid none solid solid; border-width: 1px medium 1px 1px; padding: 0.04in 0in 0.04in 0.04in; width: 108.367px;">
+																							<p align="justify">Wann?</p>
+																							</td>
+																							<td style="border: 1px solid #ffffff; padding: 0.04in; width: 434.133px;">
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">09.-11. November 2018</span></span></span></span></span></span></span></strong></p>
+																							</td>
+																							</tr>
+																							<tr valign="top">
+																							<td style="border-color: currentcolor currentcolor #ffffff #ffffff; border-style: none none solid solid; border-width: medium medium 1px 1px; padding: 0in 0in 0.04in 0.04in; width: 108.367px;">
+																							<p align="justify">Wann genau?</p>
+																							</td>
+																							<td style="border-color: currentcolor #ffffff #ffffff; border-style: none solid solid; border-width: medium 1px 1px; padding: 0in 0.04in 0.04in; width: 434.133px;">
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Anreise am 09.11. ab 16 Uhr, der erste Programmpunkt startet um 19 Uhr<br /> Abreise am 11.11. ab 14 Uhr (da</span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">nn</span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> gibt es noch Mittagessen)</span></span></span></span></span></span></span></strong></p>
+																							</td>
+																							</tr>
+																							<tr valign="top">
+																							<td style="border-color: currentcolor currentcolor #ffffff #ffffff; border-style: none none solid solid; border-width: medium medium 1px 1px; padding: 0in 0in 0.04in 0.04in; width: 108.367px;">
+																							<p align="justify">Wo?</p>
+																							</td>
+																							<td style="border-color: currentcolor #ffffff #ffffff; border-style: none solid solid; border-width: medium 1px 1px; padding: 0in 0.04in 0.04in; width: 434.133px;">
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Mitten in Deutschland, im sch&ouml;nen Fulda</span></span></span></span></span></span></span></strong></p>
+																							</td>
+																							</tr>
+																							<tr valign="top">
+																							<td style="border-color: currentcolor currentcolor #ffffff #ffffff; border-style: none none solid solid; border-width: medium medium 1px 1px; padding: 0in 0in 0.04in 0.04in; width: 108.367px;">
+																							<p align="justify">Wie?</p>
+																							</td>
+																							<td style="border-color: currentcolor #ffffff #ffffff; border-style: none solid solid; border-width: medium 1px 1px; padding: 0in 0.04in 0.04in; width: 434.133px;">
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Die An- und Abreise organisiert ihr selbst, f&uuml;r Slow Food Youth Mitglieder &uuml;bernehmen wir die Kosten f&uuml;r den g&uuml;nstigsten Weg.</span></span></span></span></span></span></span></strong></p>
+																							</td>
+																							</tr>
+																							<tr valign="top">
+																							<td style="border-color: currentcolor currentcolor #ffffff #ffffff; border-style: none none solid solid; border-width: medium medium 1px 1px; padding: 0in 0in 0.04in 0.04in; width: 108.367px;">
+																							<p align="justify">Wieviel?</p>
+																							</td>
+																							<td style="border-color: currentcolor #ffffff #ffffff; border-style: none solid solid; border-width: medium 1px 1px; padding: 0in 0.04in 0.04in; width: 434.133px;">
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Das Netzwerktreffen ist kostenfrei. In Fulda </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">k&ouml;nnen wir fantastischerweise bei der dortigen Slow Food Youth Gruppe unterkommen</span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">. Das erm&ouml;glicht Vernetzung-hoch-zehn! Dennoch &ndash; falls ihr Freund*innen in Fulda habt, bei denen ihr </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">&uuml;bernachten</span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> k&ouml;nnt, ist das auch sehr Willkommen. </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">S</span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">o </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">k&ouml;nnen wir noch </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">mehr Menschen die Teilnahme erm&ouml;glichen. </span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Fr&uuml;hst&uuml;ck gibt es in eurer Gast-WG. Sprecht euch da am besten untereinander ab, wer was mitbringt/beitr&auml;gt. Und zu einer mitgebrachten &Uuml;berraschungsk&ouml;stlichkeit sagt ganz bestimmt niemand Nein. :)</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Alle anderen Mahlzeiten werden zur H&auml;lfte vom Verein, zur H&auml;lfte von euch selbst getragen. Euer Taschengeld solltet ihr also entsprechend an die Gr&ouml;&szlig;e eures Magens anpassen. ;)</span></span></span></span></span></span></span></strong></p>
+																							</td>
+																							</tr>
+																							</tbody>
+																							</table>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Es kitzelt Dir in den Fingern, weil Du schon irgendwie Lust hast, am Treffen teilzunehmen, aber mit den Strukturen von Slow Food kennst Du Dich noch gar nicht aus und hast deshalb Bedenken, ob Du teilnehmen kannst? Kein Problem! Wir geben Dir im Vorfeld gerne eine kleine Einf&uuml;hrung per Telefon, sodass Du am Wochenende selbst wie ein alter Hase dabei sitzen wirst. Trage Dich daf&uuml;r bitte in </span></span></span></span></span></span></span></strong><strong><a href="https://share.slowfood.de/s/BprqRZHzX7WQZNY">diese Onlinetabelle</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> ein, wir melden uns dann bei Dir.</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">So. Nun steht einer Anmeldung wirklich absolut nichts mehr im Weg. Auf geht&lsquo;s &ndash; schreibt uns eine Mail, wir freuen uns schon sehr! Au&szlig;erdem teilt die frohe Botschaft mit lieben Menschen in eurer Umgebung, von denen ihr denkt, dass sie auch unbedingt mal zu einem solchen Treffen kommen sollten. Daf&uuml;r k&ouml;nnt ihr entweder einfach diesen Newsletter weiterleiten oder ihr teilt unsere </span></span></span></span></span></span></span></strong><strong><a href="https://www.facebook.com/events/2102178800043900/">Facebook-Veranstaltung</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">.</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify">&nbsp;</p>
+																							<p id="aktionstage" align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;">EU-Aktionstage &bdquo;Good Food &amp; Good Farming&ldquo; &ndash; 27.-28. Oktober 2018, EU-weit</span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Bereits in den letzten Newslettern haben wir euch von den EU-Aktionstagen &bdquo;Good Food &amp; Good Farming&ldquo; erz&auml;hlt. Am 27. und 28. Oktober wird in diesem Jahr alle Aufmerksamkeit auf die Gemeinsame Agrarpolitik </span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">(GAP)</span></span></span></span></span></span></span></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> gerichtet und Slow Food setzt sich gemeinsam mit vielen anderen Organisationen daf&uuml;r ein, dass wir ein zukunftsf&auml;higes und nachhaltiges Lebensmittelsystem brauchen.</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Beim letzten Netzwerktreffen hatten wir die Idee entwickelt, in kurzen Videos diejenigen zu Worte kommen zu lassen, die als allererstes die Auswirkungen der GAP zu sp&uuml;ren bekommen &ndash; Menschen, die in der Landwirtschaft arbeiten. Daher filmen inzwischen nicht nur wir, von Slow Food Youth in Deutschland, sondern s&auml;mtliche Youth Gruppen in ganz Europa, kurze Videos in denen Produzent*innen ihre W&uuml;nsche f&uuml;r die neue GAP &auml;u&szlig;ern. Hier zum Beispiel </span></span></span></span></span></span></span></strong><strong><a href="https://www.facebook.com/yfm.deutschland/videos/307854716661427/">ein kurzes Video von Anja</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">, einer B&auml;uerin in Stolzhagen an der Oder.</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Die Videos posten wir ab jetzt und bis zu den Aktionstagen regelm&auml;&szlig;ig in den sozialen Medien. Bitte schau dort immer wieder vorbei, klicke auf den Daumen nach oben und teile die Videos. Au&szlig;erdem kannst Du Dich auch aktiv am #CAPsnap beteiligen [Anm.: CAP = engl. f&uuml;r GAP]. Schreibe daf&uuml;r eine Forderung an die Politik auf einen A4-Zettel, nimm Topf und Kochl&ouml;ffel mit ins Bild und lasse Dich so fotografieren oder mach ein Selfie. Das Foto kannst Du dann auf Facebook, Twitter oder Instagram mit dem Hashtag #GoodFoodGoodFarming teilen oder an </span></span></span></span></span></span></span></strong><strong><a href="mailto:photo@goodfoodgoodfarming.eu">photo@goodfoodgoodfarming.eu</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> senden. Zus&auml;tzlich kannst Du noch unsere Agrarministerin Julia Kl&ouml;ckner taggen, sodass sie direkt sieht, dass sich hier etwas bewegt &ndash; Facebook @juliakloeckner, Twitter @JuliaKl&ouml;ckner, Instagram @juliakloeckner. Am 19. November gehen wir mit Deinem und vielen, vielen weiteren Fotos aus ganz Europa zum EU-Agrarministertreffen nach Br&uuml;ssel und zeigen so gemeinsam, dass es an der Zeit ist f&uuml;r eine neue Agrarpolitik! </span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Und noch etwas: vielleicht hast Du Lust am 27. und 28. Oktober gemeinsam mit Freunden ein Eat-In zu organisieren. Setzt euch zusammen bei hausgemachten saisonalen und regionalen K&ouml;stlichkeiten &ndash; entweder ganz entspannt im Wohnzimmer am Esstisch oder an einem unerwarteten Ort inmitten von Menschen, z.B. auf Anh&auml;nger deines Treckers oder in der U-Bahn. Ladet (junge) Produzent*innen ein, sodass sie selbst von ihrer Arbeit und eventuellen Schwierigkeiten erz&auml;hlen k&ouml;nnen. Ihr k&ouml;nnt so aktiv mit dabei helfen, Br&uuml;cken zu bauen zwischen Stadt und Land und einen entspannten Austausch zu f&ouml;rdern. Denn w&auml;hrend Landwirt*innen stark betroffen sind von der GAP und ein gro&szlig;er Teil des EU-Haushalts in die Agrarpolitik flie&szlig;t, haben viele Verbraucher*innen noch nie etwas davon geh&ouml;rt. Das wollen und m&uuml;ssen wir &auml;ndern! Also r&uuml;ste Dich aus mit einem Tisch, lieben Leuten und gutem, lokalem Essen und zeige, dass es an der Zeit ist f&uuml;r eine neue Esskultur!</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Noch mehr Ideen findest Du im Aktionsleitfaden hier auf deutsch oder </span></span></span></span></span></span></span></strong><strong><a href="https://www.goodfoodgoodfarming.eu/wp-content/uploads/2018/09/Action-Toolkit-Good-food-Good-Farming-FULL-REPORT_v2-Screen.pdf">hier auf englisch</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">. Au&szlig;erdem findest Du im Internet auch Veranstaltungen in Deiner Umgebung, einige stehen </span></span></span></span></span></span></span></strong><strong><a href="https://www.goodfoodgoodfarming.eu/">hier</a></strong><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;"> aufgelistet.</span></span></span></span></span></span></span></strong></p>
+																							<p align="justify">&nbsp;</p>
+																							<p id="terramadre" align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;">R&uuml;ckblick: Terra Madre Salone del Gusto in Turin</span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Vom 20.-24.09 fand der internationale Slow Food Kongress Terra Madre in Turin statt.<br />Mehr als 5000 Delegierte aus der ganzen Welt haben sich dort wie alle zwei Jahre versammelt, um an Diskussionen und Vortr&auml;gen zu spannenden Themen, wie Climate Migrations - Menschen, die aufgrund des Klimawandels zu Fl&uuml;chtlingen werden - und zu nachhaltiger Lebensweise teilzunehmen. Gleichzeitig findet der Markt Salone del Gusto statt, auf dem unz&auml;hlige Hersteller*innen aus der gesamten Welt Spezialit&auml;ten anbieten. Wem das noch nicht reichte, der meldete sich f&uuml;r hands-on Workshops an, in denen man von Spitzenk&ouml;chen*innen lernt, wie die ihre Pizza, ihr Brot oder ihren Tofu von Hand herstellen, wie Couscous in der afrikanischen K&uuml;che eingesetzt wird oder wie alte Maissorten die eigene K&uuml;che verfeinern k&ouml;nnen.<br /></span></span></span></span></span></span></span></strong></p>
+																							<p align="justify"><strong><span style="font-variant: normal;"><span style="color: #172b4d;"><span style="font-family: Times New Roman, serif;"><span style="font-size: medium;"><span style="letter-spacing: normal;"><span style="font-style: normal;"><span style="font-weight: normal;">Auch dieses Terra Madre war wieder ein spannendes Spektakel, bei dem man Gleichgesinnte wiedersieht und kennenlernt. Ein Ort, an dem sich das internationale Netzwerk versammelt, wo diskutiert und probiert wird. Und wo man gemeinsam durch die sch&ouml;ne Innenstadt Turins schlendern kann, um den anstrengenden Messetag in einem Pub ausklingen zu lassen. Vielen Dank an alle, die dabei waren!</span></span></span></span></span></span></span></strong></p>
+																							<p>&nbsp;</p>
+
+
+
+
+
+
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+																								<a href="http://slowfoodyouth.de/">Slow Food Youth</a>
+																								<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                                                <a href="https://www.facebook.com/yfm.deutschland">Facebook</a>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0; padding-bottom:40px;" mc:edit="footer_content02">
+                                            	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr> -->
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
