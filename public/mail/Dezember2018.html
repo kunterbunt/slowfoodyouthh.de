@@ -1,0 +1,637 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Slow Food Youth Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			ul {
+				padding: 10px;
+				list-style: none;
+				margin: 0 10px;
+			}
+			li {
+				margin-top: 25px;
+			}
+			li:first-child {
+			    margin-top:0;
+			}
+
+			#bodyCell{padding:20px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#ECEFF1;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #BBBBBB;
+			}
+
+			p {
+				/*text-align: justify;*/
+			}
+
+			a {
+				text-decoration: none !important;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			h2.title {
+				margin-top: 30px;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00">
+                                                Der Slow Food Youth Newsletter für den Dezember 2018 ist da!
+																								<a href="http://www.slowfoodyouthh.de/mail/Dezember2018.html">Bitte hier klicken, falls die Mail nicht richtig dargestellt wird!</a>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                                            <!-- <td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+                                                Email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                            </td> -->
+                                            <!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="http://slowfoodyouthh.de/imgs/logo.jpg" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+
+
+
+
+												<div id="main-content" class="wiki-content">
+													<h4><strong>Liebe Slow Food Youth,</strong></h4>
+<p><strong>Liebe Freundinnen, Freunde und Interessierte,</strong></p>
+<p>das Jahr 2018 neigt sich dem Ende. Zeit, kurz zu verweilen und sich daran zu erinnern, was wir in diesem Jahr gemeinsam auf die Beine gestellt haben. Ja &ndash; auch wir haben es uns nicht nehmen lassen, einen kleinen Jahresr&uuml;ckblick zusammenzustellen. Bevor es damit jedoch losgeht, kommen noch ein paar Infos zum Demowochenende im Januar und zur Slow Food Messe im April.</p>
+<p>Los geht's!</p>
+<ul>
+<li><a href="#whes">Wir haben es satt! &ndash; Demowochenende in Berlin vom 18.-20. Januar 2019</a></li>
+<li><a href="#messe">Gesucht &ndash; Qualit&auml;tskener*innen f&uuml;r die Slow Food Messe vom 25.-28. April 2019</a></li>
+<li><a href="#zusammenfassung">R&uuml;ckblick &ndash; Eine Zusammenfassung von unserem SFY Jahr 2018&nbsp;</a></li>
+</ul>
+<p>&nbsp;</p>
+<h4 id="whes"><span style="color: #000000;">Wir haben es satt! &ndash; Demowochenende in Berlin vom 18.-20. Januar 2019</span></h4>
+<p>Wir hatten es bereits in den letzten Newslettern erw&auml;hnt, hier nochmal f&uuml;r alle zur Erinnerung:&nbsp;</p>
+<p>Am 19. Januar findet in Berlin wieder die gr&ouml;&szlig;te Demo f&uuml;r kleinb&auml;uerliche Landwirtschaft und gegen Agrarindustrie statt. Angef&uuml;hrt von &uuml;ber 100 Traktoren werden wieder mehrere zehntausend Menschen gemeinsam auf die Stra&szlig;e gehen und sich f&uuml;r ein anderes, nachhaltigeres Ern&auml;hrungssystem stark machen. Direkt hinter den Treckern l&auml;uft auch in diesem Jahr wieder <a href="https://www.facebook.com/events/507072403110158/">der Jugendblock</a>, mit dem wir zeigen wollen, dass es insbesondere auch viele junge Menschen sind, die sich eine Agrarwende w&uuml;nschen. Da sind wir nat&uuml;rlich mit dabei!&nbsp;</p>
+<p>Damit wir als Slow Foodies gut erkennbar sind, haben wir uns &uuml;berlegt, in diesem Jahr Gabeln mit unseren Botschaften zu tragen. Hinter <a href="https://slowfoodyouthh.de/pdf/WHES2019_Bastelanleitung.pdf">diesem Link</a> versteckt sich die Bastelanleitung.</p>
+<p>Am Abend vor der Demo, dem 18. Januar, findet im <a href="https://www.zku-berlin.org/">ZK/U</a>&nbsp;in der Siemensstra&szlig;e 27-49, 10551 Berlin, wieder die gr&ouml;&szlig;te Schnippeldisko der Welt statt. Das Event zur Veranstaltung <a href="https://www.facebook.com/events/743841236014034/">findet ihr hier</a>. Und da wir an dem Abend nicht nur schnippeln, sondern auch diskutieren, moderieren, basteln, backen, tanzen und feiern, werden wir ganz viele flei&szlig;ige Helferleinchen brauchen. Deshalb &ndash; kommt zahlreich und bringt euch bitte mit ein! In <a href="https://www.bullsheet.de/S/index.php?k=Unrerkunft_und_MFG_Krf7XGApmKWy&amp;r=39533">dieser Liste</a>&nbsp;d&uuml;rft ihr euch gerne eintragen und uns mitteilen, dass ihr Lust habt, uns f&uuml;r ein paar St&uuml;ndchen zu unterst&uuml;tzen.</p>
+<p>&Agrave; propos im Vorfeld, am Schnippeldiskoabend wird auch f&uuml;r den Samba f&uuml;r die Vielfalt gebastelt. Eine Tanz-Theater-Aktion f&uuml;r Saatgutvielfalt, die zur Er&ouml;ffnung der Demo am 19. durchgef&uuml;hrt wird und bei der sich jede*r gerne einbringen kann. Mehr dazu <a href="https://www.facebook.com/events/246140279611598/">findet ihr hier</a>.</p>
+<p>Am 20. Januar, dem Tag nach der Demo, werden wir, wie es inzwischen schon zur Gewohnheit geworden ist, wieder zu einem kleinen Netzwerktreffen zusammenkommen. Genaue Infos und Details dazu schicken wir euch nochmal in einer ausf&uuml;hrlichen Demovorbereitungsmail Anfang Januar. Plant auf jeden Fall eure Abreise am Sonntag nicht allzu fr&uuml;h, sonst verpasst ihr was. ;)</p>
+<p>&nbsp;</p>
+<p><strong><span style="color: #ff0000;">++Wichtig!++Wichtig!++Wichtig!++</span></strong></p>
+<p>Wir hatten euch bereits im letzten Newsletter eine Liste f&uuml;r Unterk&uuml;nfte, Mitfahrgelegenheiten und Helfer*innen w&auml;hrend des Wochenendes geschickt. Mit der gab es allerdings ein paar technische Probleme, deshalb tragt euch bitte unbedingt&nbsp;<strong>bis zum 6. Januar&nbsp;</strong>in <a href="https://www.bullsheet.de/S/index.php?k=Unrerkunft_und_MFG_Krf7XGApmKWy&amp;r=39533">diese neue Liste</a> ein!</p>
+<p>&nbsp;</p>
+<h4 id="messe">Gesucht &ndash; Qualit&auml;tskener*innen f&uuml;r die Slow Food Messe vom 25.-28. April 2019</h4>
+<p class="western" align="left">F&uuml;r den "<a href="https://www.messe-stuttgart.de/marktdesgutengeschmacks/">Markt des guten Geschmacks &ndash; Die Slow Food Messe</a>" sucht Slow Food Deutschland auch in diesem Jahr wieder Menschen, die Lust haben vor Ort die Produkte ausgew&auml;hlter Aussteller*innen zu pr&uuml;fen. Dabei gilt es vor allem festzustellen, ob die ausgestellten Produkte mit denen der Zulassung identisch sind. Es wird nicht nur gez&auml;hlt und verglicken, sondern es ergibt sich so auch f&uuml;r die Pr&uuml;fer*innen die Gelegenheit, sich mit den Aussteller*innen ausf&uuml;hrlich &uuml;ber die Produkte und die Slow-Food Kriterien auszutauschen.</p>
+<p class="western" align="left">Um Teil der Pr&uuml;fungsgruppe auf der Messe zu werden, ist Vorwissen zwar hilfreich, aber keineswegs notwendig. Es gibt direkt im Vorfeld der Messe eine angeleitete Schulung, bei der das notwendige Handwerkszeug allen Pr&uuml;fer*innen vermittelt wird.&nbsp;</p>
+<p class="western" align="left">Wenn ihr Lust habt, Teil dieser Gruppe zu werden und so nicht nur Slow Food auf der Messe zu unterst&uuml;tzen, sondern auch auf lokaler Ebene euer neu gewonnenes Wissen f&uuml;r Veranstaltungen nutzen zu k&ouml;nnen, dann wendet euch bitte&nbsp;<strong>bis zum 11. Januar</strong> per <a href="mailto:%20s.binke@slowfood.de">Mail an Sandra Binke</a> aus der Gesch&auml;ftsstelle.</p>
+<h4 class="western" align="left">&nbsp;</h4>
+<h4 id="zusammenfassung" class="western" align="left">R&uuml;ckblick &ndash; eine Zusammenfassung von unserem SFY Jahr 2018</h4>
+<p><span style="text-decoration: underline;">Januar</span></p>
+<p>Das Jahr 2018 hat eben so fulminant begonnen, wie wir es f&uuml;r 2019 geplant haben. Bei der "Wir haben es satt! Demo" gingen 33.000 Menschen, angef&uuml;hrt von 160 Traktoren auf die Stra&szlig;e und waren laut &ndash; f&uuml;r eine kleinb&auml;uerliche und &ouml;kologischere Landwirtschaft, gegen Glyphosat und eine verst&auml;rkte Machtkonzentration durch die Fusion von Bayer und Monsanto. Hier findet ihr <a href="https://www.facebook.com/yfm.deutschland/videos/1661504737248606/">einen kleinen R&uuml;ckblick</a>.</p>
+<p>Bereits am Abend zuvor haben wir einige hundert Kilo Gem&uuml;se zu einer k&ouml;stlichen Protestsuppe verschnippelt und uns am Morgen nach der Demo mit m&uuml;den Beinen, aber motivierten K&ouml;pfen zum SFY netzwerken getroffen.</p>
+<p>Ein sch&ouml;ner und anregender Start ins neue Jahr!</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Februar und M&auml;rz</span></p>
+<p>Die Slow Food Youth Akademie ist in die n&auml;chste Runde gestartet. Bis Anfang Februar sind einige Bewerbungen eingetroffen und nachdem alle Bewerbungsgespr&auml;che gef&uuml;hrt und die Gruppe zusammengestellt war, konnte Ende M&auml;rz das neue Akademiejahr beginnen.&nbsp;</p>
+<p>Auch in 2019 wird es wieder eine SFY Akademie geben. Infos dazu und wie ihr euch anmelden k&ouml;nnt, <a href="http://slowfoodyouth.de/akademie/">findet ihr hier</a>. Aber Achtung &ndash; der Bewerbungszeitraum endet am 3. Februar!</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">April</span></p>
+<p>Mit erwachen der ersten Fr&uuml;hlingsblumen, wurde auch unser Netzwerk etwas aktiver. Zum Anfang des Monats fand in Stuttgart wie in jedem Jahr der "Markt des guten Geschmacks &ndash; Die Slow Food Messe" statt. Auch einige Slow Food Youthies waren vertreten und haben sich u.a. bei der Messepr&uuml;fung (s. oben) engagiert.</p>
+<p>Zum Ende des Monats hat die SFY Gruppe in Fulda eine Workshopreihe zum Thema plastikfreies Leben auf die Beine gestellt. Diese war ein voller Erfolg und wird sicherlich auf die eine oder andere Art und Weise fortgesetzt werden. Falls ihr mehr dazu erfahren wollt, wendet euch am besten <a href="https://slowfoodyouthfulda.wordpress.com/">direkt an die Gruppe</a>.</p>
+<p>Am 28. April schlie&szlig;lich fand der zweite internationale World Disco Soup Day statt. &Uuml;berall auf der Welt wurde geschnippelt, gekocht, gelacht, getanzt. In Deutschland gab es Schnippeldiskos in Wuppertal, M&uuml;nster, Berlin, Leipzig und Bielefeld, aber auch beim Terra Madre Nordic treffen in Kopenhagen waren einige aus unserem Netzwerk vertreten und haben Messer und Gabeln geschwungen. Hier findet ihr <a href="https://youtu.be/Jw-tnw01NYY">ein kleines Video mit den Eindr&uuml;cken des Tages</a>. Und nicht vergessen: Auch in diesem Jahr wird wieder weltweit geschnippelt &ndash; am 27. April 2019 ist es soweit!&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Mai</span></p>
+<p>W&auml;hrend die neuen Teilnehmer*innen der SFY Akademie noch damit besch&auml;ftigt waren, sich besser kennenzulernen, haben diejenigen, die die Akademie bereits im Vorjahr erfolgreich durchlaufen hatten, den Mai f&uuml;r ein Alumni-Wochenende genutzt. Ziel der SFY Akademie ist es schlie&szlig;lich nicht nur, die aktuellen Mitglieder weiterzubilden, sondern auch ein Netzwerk aufzubauen, damit wir uns gegenseitig unterst&uuml;tzen k&ouml;nnen. So wurden beispielsweise die Akademiewochenenden 2018 jeweils von etwa zwei Absolvent*innen des Vorjahres begleitet.</p>
+<p>Und mit dem Netzwerken ging es dann auch direkt weiter: vom 11.-13. Mai fand unser Fr&uuml;hjahrsnetzwerktreffen in Zierenberg statt. Mit ca. 30 Aktiven haben wir uns intensiv mit der Gemeinsamen Agrarpolitik der EU (GAP) auseinandergesetzt. Dabei sind wir nicht nur unter uns geblieben &ndash; zwei Teilnehmerinnen kamen von Slow Food Youth aus der Schweiz, au&szlig;erdem waren sieben Mitglieder der jungen Arbeitsgemeinschaft b&auml;uerliche Landwirtschaft und ein Mitglied der Landjugend vor Ort, sodass wir einen regen Austausch zu dem Thema hatten.</p>
+<p>Zum Ende des Wochenendes wurde au&szlig;erdem die neue Youthleitung gew&auml;hlt, die sich in diesem Jahr aus Rosa, Falko und Janina (alle SFY M&uuml;nster), Lea und Lulu (beide SFY K&ouml;ln) und Marie (SFY Hamburg) zusammensetzt. Bei unserem n&auml;chsten Netzwerktreffen im Fr&uuml;hjahr wird es wieder eine Wahl geben. Wenn ihr euch vorstellen k&ouml;nnt, Teil der Leitung zu werden, <a href="mailto:%20youthleitung@slowfood.de">kontaktiert uns</a> gerne mit euren Fragen, W&uuml;nschen oder Bedenken!</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Juni</span></p>
+<p>Die wahrscheinlich gr&ouml;&szlig;te Aktion von SFY Deutschland war in diesem Jahr das Food Film Festival in M&uuml;nster. Etwa 5.000 Besucher waren an dem Wochenende vor Ort, haben gegessen, Filme gesehen, Diskussionen gelauscht oder daran teilgenommen, in Workshops verschiedenstes gelernt und vor allem eine Menge Spa&szlig; gehabt. Die SFY Gruppe vor Ort hat wirklich eine beeindruckende Veranstaltung auf die Beine gestellt und konnte diese nicht zuletzt auch durch die zahlreiche Unterst&uuml;tzung von Slow Foodies aus ganz Deutschland wunderbar durchf&uuml;hren. <a href="https://www.facebook.com/foodfilmfestivalmuenster/videos/vb.1015054808576727/2182344315141212/?type=2&amp;theater">Der After-Movie</a> regt nochmal zum Erinnern an.</p>
+<p>Vielleicht inspiriert durch das Wochenende in M&uuml;nster, vielleicht aber auch einfach, weil es ganz dringend Zeit wurde &ndash; am 19. Juni hat sich in Leipzig eine SFY Gruppe gegr&uuml;ndet. Wie sch&ouml;n! Mit SFY G&ouml;ttingen sind das unsere neuesten Gruppen und wir freuen uns riesig zu sehen, dass unser Netzwerk w&auml;chst! :)</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Juli und August</span></p>
+<p>In den beiden Sommermonaten haben wir uns eine kleine Pause geg&ouml;nnt. Und doch waren wir gleichzeitig sehr aktiv. Denn viele unserer Videos zu den EU-Aktionstagen sind in dieser Zeit entstanden. Mehr dazu im Oktober.&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">September</span></p>
+<p>Im September war es dann mal wieder an der Zeit f&uuml;r die gr&ouml;&szlig;te internationale Slow Food Veranstaltung. Im italienischen Turin fand erneut der Salone del Gusto, die Messe des Terra Madre Netzwerkes, statt. Viele tausende Menschen aus der ganzen Welt kommen hier alle zwei Jahre zusammen und pr&auml;sentieren auf der Messe ihre Lebensmittelspezialit&auml;ten, nutzen aber auch den Kongress zum Austausch und zur weltweiten Vernetzung. Es ist schlie&szlig;lich immer wieder beeindruckend, die Gr&ouml;&szlig;e und Vielfalt der Slow Food Bewegung live und hautnah zu erleben.&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Oktober</span></p>
+<p>Anfang Oktober fand in Berlin wieder einmal das "Stadt, Land, Food Festival" in der Markthalle 9 statt. Mit dabei die Teilnehmer*innen der diesj&auml;hrigen SFY Akademie mit einem Workshop zum Thema "Lokale und saisonale Alternativen zu Superfoods". Im Rahmen der Akademie ist auch eine spannende Brosch&uuml;re zu dieser Thematik entstanden. Einige letzte Exemplare gibt es noch, solltet ihr daran Interesse haben, wendet euch am besten an <a href="mailto:%20e.carceller@slowfood.de">Elia</a>, die auch die SFY Akademie Koordiniert.</p>
+<p>Und wo wir gerade bei der Akademie sind &ndash; gerade erst begonnen, ging das Akademiejahr mit einem Abschlusswochenende vom 19.-21. Oktober auch schon wieder zu Ende. Herausgekommen ist eine tolle Gruppe junger Aktivist*innen, die viel Neues &uuml;ber unser Lebensmittelsystem gelernt hat, in der Freundschaften gekn&uuml;pft wurden und aus der sicherlich eine gro&szlig;e Portion Motivation in die n&auml;chsten Monate startet.&nbsp;</p>
+<p>Zum Abschluss des Monats gab es dann noch die EU-weite Kampagne "Good Food, Good Farming". Im Rahmen der Aktionstage haben viele Organisationen sich f&uuml;r ein zukunftsf&auml;higes Lebensmittelsystem und eine auf Nachhaltigkeit ausgerichtete Gemeinsame europ&auml;ische Agrarpolitik (GAP) ausgesprochen. Ihr habt flei&szlig;ig Videos gedreht, die wir in den Wochen vor den Aktionstagen in den sozialen Medien geteilt haben. Ein Beispiel <a href="https://www.facebook.com/yfm.deutschland/videos/249683142364020/">findet ihr hier</a>, viele weitere Videos findet ihr, wenn ihr euch ein wenig <a href="https://www.facebook.com/yfm.deutschland">auf unserer Facebookseite</a> umseht. Die Videos und viele weitere Forderungen wurden &uuml;brigens nach Br&uuml;ssel getragen und dort von vielen Aktivist*innen an EU-Politiker*innen &uuml;bergeben. Auch unsere Koordinatorin Louise war mit vor Ort!</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">November</span></p>
+<p>Im November war es wieder an der Zeit ein wenig zu netzwerken. Deshalb haben wir uns in Fulda getroffen. W&auml;hrend wir bei unserem Fr&uuml;hjahrstreffen &uuml;berwiegend inhaltlich arbeiten (in 2018 ging es wie beschrieben um die GAP), nutzen wir das Herbsttreffen vor allem zur Vernetzung, zum Austausch und um interne Themen und Arbeitsgruppen voranzubringen. Einen sch&ouml;nen Nachbericht zum Treffen, geschrieben von Philipp aus Stuttgart, k&ouml;nnt ihr <a href="http://slowfoodyouth.de/herbst-netzwerktreffen/">hier lesen</a>.</p>
+<p>Au&szlig;erdem erreichte uns im November auch eine Nachricht von Lena, die eigentlich in Kiel aktiv ist. Anfang des Jahres hat sie drei Monate in Wales verbracht und dort Einblicke in die solidarische Landwirtschaft und den Umweltaktivismus vor Ort gewonnen. Ihren Bericht <a href="http://slowfoodyouth.de/wild-wilder-wales/">findet ihr hier</a>. Es freut uns immer wieder sehr, wenn wir von euch solche Nachrichten bekommen, denn diese zeigen erst wirklich, wie aktiv und vielf&auml;ltig unser Netzwerk ist. Von daher hier ein Vorschlag f&uuml;r einen guten Vorsatz f&uuml;r 2019: Mindestens einen (kurzen) Artikel f&uuml;r die Slow Food Youth Homepage schreiben. :)</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Dezember</span></p>
+<p>Zum Ausklang des Jahres hat sich die SFY Gruppe in Berlin mit einem Stand am Rixdorfer Weihnachtsmarkt beteiligt. Dieser wird ausschlie&szlig;lich von karitativen Vereinen, Organisationen und Verb&auml;nden bespielt und sorgt mit heimeliger Atmosph&auml;re f&uuml;r sch&ouml;ne Weihnachtsstimmung.</p>
+<p>Parallel fand ebenfalls am 2. Adventswochenende der internationale deutschsprachige Ny&eacute;l&eacute;ni Kongress f&uuml;r Ern&auml;hrungssouver&auml;nit&auml;t in Freiburg statt. Diesen kann man sich als ein gro&szlig;es Netzwerktreffen all jener vorstellen, die sich irgendwie f&uuml;r Ern&auml;hrungssouver&auml;nit&auml;t engagieren. Vertreten waren viele Vereine und NGOs, aber auch jede Menge Menschen, die in der Landwirtschaft oder im Handwerk arbeiten oder sich einfach f&uuml;r das Thema interessieren. Ein spannender Kongress, bei dem wir mit einer kleinen Gruppe von Slow Food Youthies vertreten waren und uns &uuml;ber die flei&szlig;ige Vernetzung mit anderen gefreut haben.</p>
+<p>&nbsp;</p>
+<p>Und jetzt ist das Jahr auch schon wieder rum. Beim Schreiben (und hoffentlich auch beim Lesen) des Newsletters wird einem irgendwie erst wieder richtig bewusst, wie wahnsinnig viel wir gemeinsam als Netzwerk in diesem Jahr auf die Beine gestellt haben.</p>
+<p>Und das Sch&ouml;nste daran? Bereits in drei Wochen wird es in Berlin weitergehen und wir freuen uns riesig darauf, euch alle dann wieder zu sehen, mit euch auf die Stra&szlig;e zu gehen und laut zu sein, ein bisschen zu frieren, weil Januar ist, aber dann einfach gemeinsam zu tanzen und zu lachen. Und abends bei einem Gl&auml;schen Wein oder Tee k&ouml;nnen wir die K&auml;lte vertreiben, uns austauschen &uuml;ber die letzten Wochen, neue Menschen kennenlernen und einfach mal wieder ein sch&ouml;nes Wochenende mit so lieben Leuten verbringen, die unser Netzwerk einfach fantastisch machen.</p>
+<p>Danke! Ihr seid cool! :)</p>
+<p>&nbsp;</p>
+<p>Kommt gut ins neue Jahr!</p>
+<p>Bis bald, eure</p>
+<p><a href="mailto:%20youth@slowfood.de">Louise</a> &ndash; Koordinatorin von Slow Food Youth und&nbsp;</p>
+<p><a href="mailto:%20youthleitung@slowfood.de">Lea, Lulu, Rosa, Janina, Falko und Marie</a> &ndash; Slow Food Youth Leitungsteam</p>
+<p>&nbsp;</p>
+
+
+
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+																								<a href="http://slowfoodyouth.de/">Slow Food Youth</a>
+																								<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                                                <a href="https://www.facebook.com/yfm.deutschland">Facebook</a>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0; padding-bottom:40px;" mc:edit="footer_content02">
+                                            	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr> -->
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
