@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mehr on Slow Food Youth Hamburg</title>
+    <title>Alle Posts on Slow Food Youth Hamburg</title>
     <link>http://www.slowfoodyouthh.de/mehr/</link>
-    <description>Recent content in Mehr on Slow Food Youth Hamburg</description>
+    <description>Recent content in Alle Posts on Slow Food Youth Hamburg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 22 Mar 2017 23:27:43 +0100</lastBuildDate>
     
 	<atom:link href="http://www.slowfoodyouthh.de/mehr/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>empty</title>
-      <link>http://www.slowfoodyouthh.de/mehr/empty/</link>
-      <pubDate>Wed, 22 Mar 2017 23:27:43 +0100</pubDate>
-      
-      <guid>http://www.slowfoodyouthh.de/mehr/empty/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

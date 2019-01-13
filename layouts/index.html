@@ -62,7 +62,7 @@
       <div class="mdl-cell mdl-cell--6-col">
         <i class="material-icons">&#xE5C5;</i>
         <div class="vertical-line vertical-line--50px"></div>
-        {{ range first 7 .Data.Pages }}
+        {{ range first 7 .Site.RegularPages }}
           <div class="article">
             <a href="{{.Permalink}}" title="{{.Title}}" target="_self">
               <span class="article__date">{{.Date.Format "January 2"}}</span>

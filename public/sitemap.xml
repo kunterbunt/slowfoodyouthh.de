@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>http://www.slowfoodyouthh.de/mehr/empty/</loc>
+    <loc>http://www.slowfoodyouthh.de/mehr/</loc>
     <lastmod>2017-03-22T23:27:43+01:00</lastmod>
   </url>
   
@@ -107,12 +107,6 @@
   
   <url>
     <loc>http://www.slowfoodyouthh.de/mail/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/mehr/</loc>
-    <lastmod>2017-03-22T23:27:43+01:00</lastmod>
     <priority>0</priority>
   </url>
   
