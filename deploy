@@ -5,7 +5,7 @@ then
 	exit
 fi
 hugo
-rsync -av public/ kunterbunt@vserver:~/web/slowfoodyouthh.de
+rsync -arv --delete public/ sebat@server:~/web/slowfoodyouthh.de
 git add .
 git commit -m "$1"
 git push
