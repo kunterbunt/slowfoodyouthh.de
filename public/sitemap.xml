@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.slowfoodyouthh.de/tags/</loc>
+    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/artikel/</loc>
+    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.slowfoodyouthh.de/artikel/zero-waste/muelltrennung/</loc>
     <lastmod>2017-12-17T22:02:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/</loc>
+    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/</loc>
+    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/zero-waste/</loc>
+    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,6 +53,12 @@
   </url>
   
   <url>
+    <loc>http://www.slowfoodyouthh.de/tags/event/</loc>
+    <lastmod>2017-04-29T10:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.slowfoodyouthh.de/artikel/wdsd/</loc>
     <lastmod>2017-04-29T10:00:00+01:00</lastmod>
   </url>
@@ -30,6 +66,12 @@
   <url>
     <loc>http://www.slowfoodyouthh.de/artikel/minitopia/</loc>
     <lastmod>2017-04-07T19:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.slowfoodyouthh.de/tags/projekt/</loc>
+    <lastmod>2017-04-07T19:00:00+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -53,6 +95,12 @@
   </url>
   
   <url>
+    <loc>http://www.slowfoodyouthh.de/tags/schnippeldisko/</loc>
+    <lastmod>2016-09-11T13:46:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.slowfoodyouthh.de/artikel/schnippeldisko2016/</loc>
     <lastmod>2016-09-11T13:46:29+02:00</lastmod>
   </url>
@@ -68,6 +116,12 @@
   </url>
   
   <url>
+    <loc>http://www.slowfoodyouthh.de/tags/ausflug/</loc>
+    <lastmod>2016-05-13T09:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.slowfoodyouthh.de/artikel/netzwerktreffen/</loc>
     <lastmod>2016-05-13T09:00:00+02:00</lastmod>
   </url>
@@ -78,65 +132,12 @@
   </url>
   
   <url>
-    <loc>http://www.slowfoodyouthh.de/tags/</loc>
-    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.slowfoodyouthh.de/mail/dezember2016/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/artikel/</loc>
-    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/tags/ausflug/</loc>
-    <lastmod>2016-05-13T09:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/tags/event/</loc>
-    <lastmod>2017-04-29T10:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.slowfoodyouthh.de/mail/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/tags/projekt/</loc>
-    <lastmod>2017-04-07T19:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/tags/schnippeldisko/</loc>
-    <lastmod>2016-09-11T13:46:29+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/</loc>
-    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/tags/</loc>
-    <lastmod>2017-05-17T15:54:18+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.slowfoodyouthh.de/tags/zero-waste/</loc>
-    <lastmod>2017-12-17T22:02:57+01:00</lastmod>
     <priority>0</priority>
   </url>
   
