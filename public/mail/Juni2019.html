@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Slow Food Youth Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			ul {
+				padding: 10px;
+				list-style: none;
+				margin: 0 10px;
+			}
+			li {
+				margin-top: 25px;
+			}
+			li:first-child {
+			    margin-top:0;
+			}
+
+			#bodyCell{padding:20px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#ECEFF1;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #BBBBBB;
+			}
+
+			p {
+				/*text-align: justify;*/
+			}
+
+			a {
+				text-decoration: none !important;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			h2.title {
+				margin-top: 30px;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color: black;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00">
+                                                Der Slow Food Youth Newsletter für den Juni 2019 ist da!
+																								<a href="https://www.slowfoodyouthh.de/mail/Juni2019.html">Bitte hier klicken, falls die Mail nicht richtig dargestellt wird!</a>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                                            <!-- <td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+                                                Email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                            </td> -->
+                                            <!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="https://slowfoodyouthh.de/imgs/logo.jpg" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+												<div id="main-content" class="wiki-content">
+
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%;" align="justify"><strong><span style="font-family: Fira Sans, sans-serif;">Liebe Slow Food Youth,</span></strong></p>
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%;" align="justify"><strong><span style="font-family: Fira Sans, sans-serif;">Liebe Freundinnen, Freunde und Interessierte,</span></strong></p>
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%; "><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">nach einem spannenden und politischen Fr&uuml;hjahr bei Slow Food Youth, eingel&auml;utet mit &uuml;ber 80 Schnippeldiskos zum </span></span><strong><a href="#World_Disco_Soup_Day"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">World Disco Soup Day</span></span></a></strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">, der Slow Food Youth </span></span><strong><a href="#World_Disco_Soup_Day"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Kampagne #foodisPOLITICS</span></span></a></strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;"> zu den Europawahlen sowie einem ereignisreichen </span></span><strong><a href="#Netzwertreffen_Leipzig"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Netzwerktreffen</span></span></a></strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;"> in Leipzig, wollen wir jetzt mit Euch in den Sommer starten! Wem Badesee und grillen nicht gen&uuml;gt: startet gemeinsam mit uns den Festival-Sommer und kommt Ende Juni mit auf das </span></span><strong><a href="#Beats_und_Bohne"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Beats und Bohne Festival</span></span></a></strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">. Anfang Juli geht es dann zur Slow Food </span></span><strong><a href="#Mitgliederversammlung"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Mitgliederversammlung</span></span></a></strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;"> nach Erfurt, um als Youth an den Entscheidungen des Vereins mitzuwirken. Richtig international wird es dann im August, beim ersten europ&auml;isches </span></span><strong><a href="#SFYN_Europe_Netzwerktreffen"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">SFYN Netzwerktreffen</span></span></a></strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;"> in den Herrmannsdorfer Landwerkst&auml;tten in S&uuml;ddeutschland. Seid gespannt und lest mehr in diesem Newsletter!</span></span></p>
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%; "><strong><span style="font-family: Fira Sans, sans-serif;">Helft uns den Newsletter zu optimieren</span></strong><strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: large;"><br /> </span></span></strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Zuallererst haben wir eine gro&szlig;e Bitte an Euch: Um Euch in Zukunft gezielt nur &uuml;ber die f&uuml;r Euch spannendsten Themen zu informieren, haben wir eine kurze Umfrage zu Euren W&uuml;nschen f&uuml;r den Slow Food Youth-Newsletter erstellt. Die Teilnahme jedes Einzelnen ist eine riesige Unterst&uuml;tzung und dauert garantiert weniger als 2 Minuten. Also, keine Zeit verlieren und j<a href="https://umfrage.slowfood.de/index.php?r=survey/index&amp;sid=318556&amp;lang=en">etzt an der Umfrage teilnehmen</a>.</span></span></p>
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%; "><strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: x-large;"><br /> R&uuml;ckblick &ndash; Das Fr&uuml;hjahr im Slow Food Youth Netzwerk </span></span></strong></p>
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">M&uuml;nster: Es wird politisch!</span></strong></p>
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%;">&bdquo;<span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Wie ern&auml;hrt sich Europa in Zukunft?&ldquo; Am 16. Mai fand zu diesem Thema in M&uuml;nster eine Diskussionsveranstaltung mit Martin H&auml;usling, dem agrarpolitischen Sprecher der Gr&uuml;nen im EU-Parlament, statt. Auch Slow Food Youth M&uuml;nster war dabei und gut vertreten! An einem Infostand mit den Fakten der #foodisPOLITICS Kampagne kamen die 10 Youthies mit vielen Interessierten ins Gespr&auml;ch und diskutierten Fragen rund um die europ&auml;ische Agrarpolitik. Auch mit H&auml;usling, selbst Slow Food Mitglied, kamen sie ins Gespr&auml;ch. Die Kritik von Slow Food Youth an der derzeitigen EU Agrarpolitik teile er &ndash; und auch den Wunsch, dass Slow Food in Zukunft noch politischer wird. <br /> Gesagt, getan! Eine Woche sp&auml;ter demonstrierten 6.000 Menschen bei der Fridays4Future Demo in M&uuml;nster. Falko und Janina von SFY M&uuml;nster nutzten die Gelegenheit und sprachen auf der B&uuml;hne &uuml;ber die Forderungen von Slow Food Youth zu einer Ern&auml;hrungswende. Mit scharfer Kritik am Kurs unserer Ministerin f&uuml;r Ern&auml;hrung und Landwirtschaft, Julia Kl&ouml;ckner, sowie mit konkreten Tipps, um das eigene Konsumverhalten zu ver&auml;ndern, bekamen die beiden viel Applaus von den jungen Klimaaktivist*innen. Im Anschluss gab es einen spannenden Austausch, wie wichtig das Handlungsfeld Ern&auml;hrung f&uuml;r den Klimaaktivismus ist. </span></span></p>
+<p id="Netzwertreffen_Leipzig" style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">Netzwerktreffen in Leipzig</span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Mit einem Potpourri aus Vortr&auml;gen, Fragerunden, Diskussionen und Energizern, gab es beim Netzwerktreffen in Leipzig Anfang Mai mal wieder ein reichhaltiges Programm. Mehr &uuml;ber die spannendsten Highlights des Wochenendes erfahrt Ihr in <a href="https://www.slowfood.de/wirueberuns/slowfoodyouth/aktuelles-aus-dem-netzwerk/netzwerktreffen-des-slow-food-youth-netzwerks-in-leipzig">Annas Bericht zum Netzwerktreffen</a>.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">Neue Slow Food Youth Leitung </span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Nach gro&szlig;artiger und mehrj&auml;hirger Arbeit als Leitungsmitglieder, haben sich Lea, Marie und Rosa nicht erneut zur Wahl f&uuml;r die Slow Food Youth Leitung aufgestellt. Wir freuen uns jedoch &uuml;ber Ihre Zusicherung, dass Sie auch in Zukunft das Netzwerk in anderen Funktionen bereichern werden! Falko und Janina (beide SFY M&uuml;nster) treten ihr zweites Jahr in der Leitung an, w&auml;hrend Daniel (Augsburg), Dennis (Bochum), Anna (M&uuml;nster) und Lotta (Leipzig) neu in die Leitung gew&auml;hlt wurden. Wer die sechs sind und was sie f&uuml;r W&uuml;nsche f&uuml;r Slow Food Youth haben, k&ouml;nnt Ihr in diesem <a href="https://www.slowfood.de/aktuelles/2019/slow-food-youth-netzwerke-knuepfen-und-begeisterung-fuer-gutes-essen-weitertragen">Bericht &uuml;ber die neue Leitung</a> lesen. </span></span></p>
+<p id="World_Disco_Soup_Day" style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">World Disco Soup Day und Slow Food Youth-Kampagne zur EU-Wahl</span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Weltweit fanden am 27. April 80 Schnippeldiskos zum World Disco Soup Day statt. Rund 10.000 Kg Lebensmittel wurden gerettet und von 17.000 Teilnehmenden eifrig geschnippelt und geschlemmt. Auch in Deutschland wurde flei&szlig;ig geschnippelt: Bundesweit fanden sieben Schnippeldiskos statt, die sich &uuml;ber eine sehr gute Medien-Resonanz freuen konnten. Ein ausgezeichneter Start f&uuml;r die <a href="https://www.slowfood.de/aktuelles/2019/fakten-zur-gemeinsamen-eu-agrarpolitik-darum-ist-die-eu-wahl-2019-wichtig-fuer-uns-alle">Kampagne zur Europa Wahl</a>! In Form von 30 Fakten wird darlegt, wie die Entscheidung, was auf unseren Tellern landet, mit der Europapolitik zusammenh&auml;ngt. Unterst&uuml;tzt werden die Fakten durch 14 Video-Interviews, in denen Lebensmittelproduzent*innen &uuml;ber ihre Erwartungen an die Europapolitik sprechen. &Uuml;bersetzt ins Englische und Italienische, wurden die Fakten auch im internationalen Netzwerk ver&ouml;ffentlicht. In Deutschland wurden sie von &uuml;ber zehn SFY und Slow Food Gruppen &uuml;ber die sozialen Medien geteilt. Vielen Dank an alle die dabei mitgewirkt haben!</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 115%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: x-large;">Save the date: Wichtige SFY Termine</span></span></strong></p>
+<p id="Beats_und_Bohne" style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">20. - 23.06.: Beats &amp; Bohne Festival</span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Noch kein Ticket? Es ist noch nicht zu sp&auml;t! Freut Euch auf ein spannendes und vielf&auml;ltiges Programm beim <a href="https://www.wir-haben-es-satt.de/festival/info/">Beats &amp; Bohne Festival</a>. Vier Tage sind Euch nicht genug? Dann meldet Euch sehr gerne f&uuml;r Unterst&uuml;tzung beim Auf- oder Abbau, denn helfende H&auml;nde werden noch gesucht! Auch ein paar Slow Food Youthies sind im Programm vertreten:<br /> </span></span></p>
+<ul>
+<li>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Gleich zweimal k&ouml;nnt Ihr mit Bernd von SFY Harz Bienenwachst&uuml;cher selber machen: Freitag von 13-15 Uhr und Samstag von 16-18 Uhr.</span></span></p>
+</li>
+<li>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Am Samstag organisiert Slow Food Youth von 16-18 Uhr zusammen mit anderen Jugendorganisationen einen World Caf&eacute; zu (schwierigen) Entscheidungen.</span></span></p>
+</li>
+<li>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Am Samstag k&ouml;nnt ihr um 10 Uhr mit Sarah und Giulia ein Zeichen gegen Plastik setzen und eigene plastikfreie Pflegeprodukte herstellen.</span></span></p>
+</li>
+<li>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">4x Radioballett mit dem "AckerEnsemble" (gegr&uuml;ndet und produziert von 4 Alumis der SFYA 2018) </span></span></p>
+</li>
+</ul>
+<p id="Mitgliederversammlung" style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">06.07.: Slow Food Mitgliederversammlung, Erfurt</span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Ihr habt Lust noch tiefer in die Arbeit von Slow Food einzusteigen, das Netzwerk durch st&auml;rkere Zusammenarbeit von Slow Food Youth und Slow Food zu st&auml;rken und an Entscheidungen des Vereins mitzuwirken? Dann kommt am 6. Juli zur Mitgliederversammlung nach Erfurt! Anmeldungen und Fragen k&ouml;nnt Ihr an </span></span><a href="mailto:info@slowfood.de"><span style="color: #0563c1;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;"><u>info@slowfood.de</u></span></span></span></a><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;"> richten.</span></span></p>
+<p id="SFYN_Europe_Netzwerktreffen" style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">29.08. - 02.09: Europ&auml;isches SFYN Treffen</span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Diesen Sommer trifft sich das europ&auml;ische Slow Food Youth Netzwerk in den Herrmannsdorfer Landwerkst&auml;tten, um eine Strategie f&uuml;r das Netzwerk zu entwickeln, gemeinsame Aktivit&auml;ten zu koordinieren und um sich besser kennenzulernen. Vier Tage Camping, Kochen und gemeinsames Arbeiten im Sp&auml;tsommer.... Klingt gut? Eine Einladung habt ihr in einem Extra-Mailing bekommen. Die <a href="https://umfrage.slowfood.de/index.php?r=survey/index&amp;sid=318556&amp;token=2xXkf5q0SgymzLO&amp;lang=en">Bewerbung</a> ist noch bis zum 15. Juni m&ouml;glich.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 115%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: x-large;">Aus dem erweiterten Netzwerk</span></span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">24.-31.08.: Sommerschule Future of Food &ndash; Zukunftsf&auml;hige Ern&auml;hrungssysteme</span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Die <a href="https://www.schloss-kirchberg-jagst.de/index.php/akademie-schloss-kirchberg/sommerschule">Sommerschule im Schloss Kirchberg</a> bietet Euch die Gelegenheit, Euch mit dem Wertsch&ouml;pfungssystem Lebensmittel auseinanderzusetzen und Euch mit anderen jungen Menschen zu vernetzen, die Lust haben unser Ern&auml;hrungssystem mitzugestalten. Anmeldeschluss ist der 30. Juni. </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><strong><span style="font-family: Fira Sans, sans-serif;">Dossier: Neue Gentechnik - Die gro&szlig;e Versuchung</span></strong></p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Im neuen <a href="https://www.boell.de/de/gentechnik">Magazin der Heinrich B&ouml;ll Stiftung</a> finden sich unter anderem Beitr&auml;ge &uuml;ber die Geschichte der Gentechnik und deren Auswirkungen, &uuml;ber die Soja-Republik Argentinien, den gr&ouml;&szlig;ten Gen-Tresor sowie &uuml;ber die Risiko von den neuen Gene Drive Verfahren.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 115%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 115%;"><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Viele Gr&uuml;&szlig;e, <br /></span></span><span style="font-family: Fira Sans, sans-serif;"><span style="font-size: small;">Die Youth Leitung: Anna, Daniel, Dennis, Falko, Janina und Lotta<br /> Die Youth Koordinatorin: Louise</span></span></p>
+<p style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%;" align="justify"><br /> </p>
+<p>&nbsp;</p>
+</td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+																								<a href="http://slowfoodyouth.de/">Slow Food Youth</a>
+																								<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                                                <a href="https://www.facebook.com/yfm.deutschland">Facebook</a>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0; padding-bottom:40px;" mc:edit="footer_content02">
+                                            	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr> -->
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
