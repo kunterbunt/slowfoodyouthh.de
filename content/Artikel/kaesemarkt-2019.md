@@ -18,6 +18,8 @@ Jederfrau und -mann konnte seinen gerade erstandenen Käse gegen Spende auf eine
 Ein paar Eindrücke des Ausflugs sollen nicht fehlen:
 
 ![Käse](/imgs/kaesemarkt/_MG_9923-web.jpg)
+![Käse](/imgs/kaesemarkt/_MG_9962-web.jpg)
+![Käse](/imgs/kaesemarkt/_MG_9963-web.jpg)
 ![Käse](/imgs/kaesemarkt/DSCF7568-web.jpg)
 ![Käse](/imgs/kaesemarkt/DSCF7576-web.jpg)
 ![Käse](/imgs/kaesemarkt/_MG_9929-web.jpg)
