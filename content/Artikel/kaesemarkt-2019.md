@@ -13,7 +13,7 @@ Am 26. Mai hat sich die wunderschöne [Hobbenköök](https://hobenkoeoek.de/) in
 Slow Food Hamburg hat etliche regionale Käser und Freunde zusammengetrommelt und den bisherigen Käsemarkt vom [Freilichtmuseum am Kiekeberg](https://www.kiekeberg-museum.de/) ins Herzen von Hamburg geholt.
 
 Wir waren natürlich auch am Start! und haben unseren mobilen Pizzaofen mitgebracht.
-Jederfrau und -mann konnte seinen gerade erstandenen Käse gegen Spende auf einen leckeren, selbstgemachten Pizzateig bringen, mit diversen Toppings garnieren und dann innerhalb von weniger als zwei Minuten im 500°C heißen Ofen zu einer verdammt leckeren Pizza backen.
+Jederfrau und -mann konnte seinen gerade erstandenen Käse gegen Spende auf einen leckeren, selbstgemachten Pizzateig bringen, mit diversen Toppings garnieren und dann innerhalb von zwei Minuten im 500°C heißen Ofen zu einer verdammt leckeren Pizza backen.
 
 Ein paar Eindrücke des Ausflugs sollen nicht fehlen:
 
