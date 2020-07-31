@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artikel on Slow Food Youth Hamburg</title>
@@ -6,10 +6,20 @@
     <description>Recent content in Artikel on Slow Food Youth Hamburg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sat, 14 Sep 2019 15:22:53 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 21:04:42 +0200</lastBuildDate>
     
 	<atom:link href="http://www.slowfoodyouthh.de/artikel/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Winetasting</title>
+      <link>http://www.slowfoodyouthh.de/artikel/winetasting/</link>
+      <pubDate>Fri, 31 Jul 2020 21:04:42 +0200</pubDate>
+      
+      <guid>http://www.slowfoodyouthh.de/artikel/winetasting/</guid>
+      <description>Nach langer Coronapause haben wir gebührend einen Neustart ins soziale Leben gewagt. Mit einem wunderbaren Winetasting, toll angeleitet von Holger Aßmann. Er hat uns mit seiner Expertise und seinen Geschichten durch den Abend geführt und den Weinneulingen die Basics beigebracht. Er selbst ist drauf und dran, eine Hamburger Slow Food Weingruppe zu gründen - und hat mit uns gleich einige Mitglieder gewonnen. Danke für den schönen Abend, Holger!
+Wir haben Riesling, Gewürztraminer und Muskateller probiert, drüber geschnackt und persönlich nach dem eigenen Geschmack bewertet.</description>
+    </item>
     
     <item>
       <title>Internationales Slow Food Youth Treffen</title>
@@ -102,7 +112,7 @@ Wir waren natürlich auch am Start! und haben unseren mobilen Pizzaofen mitgebra
       
       <guid>http://www.slowfoodyouthh.de/artikel/kuerbisworkshop/</guid>
       <description>Am Mittwoch, den 19. Oktober, war im Elbschloss an der Bille mal wieder Workshopzeit. Slow Food Youth Hamburg veranstaltet an jedem dritten Mittwoch im Monat mit Interessierten aus der Nachbarschaft einen Kochabend. Auf dem Tisch landen Gerichte, die saisonal sind, gekocht wird mit guten Produkten aus der Region.
-Dieses Mal haben wir den Herbst begrüßt und uns an ein Drei-Gänge-Menü zum Thema Kürbis gewagt. Herausgekommen sind äußerst schmackhafte Gerichte, die zwar nicht immer genau so geworden sind, wie wir es uns vorgestellt haben, aber dennoch wahnsinnig lecker.</description>
+Unser nächster Workshop findet am 16. November ab 19 Uhr statt. Wir werden sehen, was die Felder dann hergeben und euch unser Thema rechtzeitig vorher hier mitteilen.</description>
     </item>
     
     <item>
@@ -132,7 +142,7 @@ Unterwegs legen wir Stops in Verona und Bra ein. Gerade Bra ist spannend, da hie
       <pubDate>Sun, 11 Sep 2016 13:46:29 +0200</pubDate>
       
       <guid>http://www.slowfoodyouthh.de/artikel/schnippeldisko2016/</guid>
-      <description>Am 11. September feierten wir die 2. Schnippeldisko im Wilhelmsburger Inselpark! Bei strahlendem Sonnenschein haben wir an diesem Sonntag gemeinsam mit euch gute 100kg Obst &amp;amp; Gemüse geschnippelt, gebraten, gekocht und zu Saft gemacht!
+      <description>Bei strahlendem Sonnenschein haben wir an diesem Sonntag gemeinsam mit euch gute 100kg Obst &amp;amp; Gemüse geschnippelt, gebraten, gekocht und zu Saft gemacht!
 Es hat uns sehr viel Spaß gemacht mit den vielen entspannten und netten Menschen zu sehr schönem Gesang von Derya Yildirim &amp;amp; Karin Jüchter und guten Beats von Klangtaucher unsere Schnippeldisko zu feiern.
 Ein großer Dank geht an den Wilhelmsburger Inselpark für die schöne Location und die Organisation von Musik und Technik.</description>
     </item>
