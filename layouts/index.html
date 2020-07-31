@@ -77,7 +77,7 @@
         {{ range first 7 .Site.RegularPages }}
           <div class="article">
             <a href="{{.Permalink}}" title="{{.Title}}" target="_self">
-              <span class="article__date">{{.Date.Format "January 2"}}</span>
+              <span class="article__date">{{.Date.Format "02.01.2006"}}</span>
               <div class="article__content">
                 <div class="article__content--image" style="background: url('{{.Params.logo}}');"></div>
                 <h3 class="article__content--title">{{.Title}}</h3>
