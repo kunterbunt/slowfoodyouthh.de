@@ -1,7 +1,7 @@
 +++
 title = "Winetasting"
 summary = ""
-date = 2020-07-31T21:04:42+02:00
+date = 2020-07-24T21:04:42+02:00
 tags = [""]
 logo = "/imgs/winetasting/bild1.jpg"
 draft = false
